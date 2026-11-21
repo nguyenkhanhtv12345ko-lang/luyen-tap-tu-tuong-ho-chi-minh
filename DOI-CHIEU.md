@@ -49,7 +49,7 @@ Số câu gốc trên web là vị trí của câu trong toàn bộ tài liệu 
 - Toàn bộ câu hỏi: 76 câu
 - Phần 1 · Chương 1 đến 6: 53 câu
 - Phần 2 · Nguyễn Ái Quốc: 18 câu
-- Phần 3 · Từ MHT: 20 câu
+- Đề Giữa kỳ: 20 câu
 - Chương 1: 7 câu
 - Chương 2: 10 câu
 - Chương 3: 9 câu

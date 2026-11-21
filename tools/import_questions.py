@@ -229,7 +229,7 @@ def main():
 
     bank = transform(raw)
     groups = [{"id": "all", "label": "Toàn bộ câu hỏi", "ids": [q["id"] for q in bank]}]
-    part_labels = ["Phần 1 · Chương 1 đến 6", "Phần 2 · Nguyễn Ái Quốc", "Phần 3 · Từ MHT"]
+    part_labels = ["Phần 1 · Chương 1 đến 6", "Phần 2 · Nguyễn Ái Quốc", "Đề Giữa kỳ"]
     for part, label in enumerate(part_labels, 1):
         groups.append({"id": f"part-{part}", "label": label, "ids": group_ids([q for q in raw if q["part"] == part])})
     for chapter in range(1, 7):
