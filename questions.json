@@ -1,0 +1,2118 @@
+{
+  "sourceCount": 95,
+  "groups": [
+    {
+      "id": "all",
+      "label": "Toàn bộ câu hỏi",
+      "ids": [
+        1,
+        3,
+        4,
+        5,
+        6,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        16,
+        17,
+        19,
+        21,
+        27,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70,
+        71,
+        72,
+        73,
+        74,
+        75,
+        76,
+        78,
+        80,
+        81,
+        82,
+        83,
+        84,
+        85,
+        86,
+        87,
+        88,
+        89,
+        90,
+        91,
+        92,
+        93,
+        94,
+        95
+      ]
+    },
+    {
+      "id": "part-1",
+      "label": "Phần 1 · Chương 1 đến 6",
+      "ids": [
+        1,
+        3,
+        4,
+        5,
+        6,
+        76,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        93,
+        16,
+        17,
+        94,
+        19,
+        78,
+        21,
+        80,
+        81,
+        82,
+        83,
+        27,
+        85,
+        84,
+        89,
+        90,
+        91,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57
+      ]
+    },
+    {
+      "id": "part-2",
+      "label": "Phần 2 · Nguyễn Ái Quốc",
+      "ids": [
+        58,
+        59,
+        60,
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70,
+        71,
+        72,
+        73,
+        74,
+        75
+      ]
+    },
+    {
+      "id": "part-3",
+      "label": "Phần 3 · Từ MHT",
+      "ids": [
+        76,
+        1,
+        78,
+        21,
+        80,
+        81,
+        82,
+        83,
+        84,
+        85,
+        86,
+        87,
+        88,
+        89,
+        90,
+        91,
+        92,
+        93,
+        94,
+        95
+      ]
+    },
+    {
+      "id": "chapter-1",
+      "label": "Chương 1",
+      "ids": [
+        1,
+        3,
+        4,
+        5,
+        6,
+        76,
+        9
+      ]
+    },
+    {
+      "id": "chapter-2",
+      "label": "Chương 2",
+      "ids": [
+        10,
+        11,
+        12,
+        13,
+        14,
+        93,
+        16,
+        17,
+        94,
+        19
+      ]
+    },
+    {
+      "id": "chapter-3",
+      "label": "Chương 3",
+      "ids": [
+        78,
+        21,
+        80,
+        81,
+        82,
+        83,
+        27,
+        85,
+        84
+      ]
+    },
+    {
+      "id": "chapter-4",
+      "label": "Chương 4",
+      "ids": [
+        89,
+        90,
+        91,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39
+      ]
+    },
+    {
+      "id": "chapter-5",
+      "label": "Chương 5",
+      "ids": [
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50
+      ]
+    },
+    {
+      "id": "chapter-6",
+      "label": "Chương 6",
+      "ids": [
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "source": "Phần 1 · Chương 1 · Câu 1",
+      "text": "“Tư tưởng Hồ Chí Minh là ............................................ là kết quả của sự vận dụng và phát triển sáng tạo chủ nghĩa Mác – Lênin vào điều kiện cụ thể của nước ta, kế thừa và phát triển các giá trị truyền thống tốt đẹp của dân tộc, tiếp thu tinh hoa văn hóa nhân loại; là tài sản tinh thần vô cùng to lớn và quý giá của Đảng và dân tộc ta, mãi mãi soi đường cho cuộc cách mạng của nhân dân ta giành thắng lợi”.",
+      "options": [
+        {
+          "id": "A",
+          "text": "một hệ thống quan điểm toàn diện và sâu sắc về những vấn đề cơ bản của cách mạng Việt Nam,"
+        },
+        {
+          "id": "B",
+          "text": "một hệ thống quan điểm về vấn đề cơ bản của cách mạng Việt Nam,"
+        },
+        {
+          "id": "C",
+          "text": "một sự phản ánh khách quan, toàn diện về cách mạng Việt Nam,"
+        },
+        {
+          "id": "D",
+          "text": "là tài sản vô sản vô giá của Đảng và dân tộc Việt Nam"
+        }
+      ],
+      "correct": [
+        "A"
+      ]
+    },
+    {
+      "id": 3,
+      "source": "Phần 1 · Chương 1 · Câu 3",
+      "text": "Đại hội XIII xủa Đảng (2021) khẳng định quan điểm chỉ đạo là:",
+      "options": [
+        {
+          "id": "A",
+          "text": "“Kiên định và vận dụng phát triển sáng tạo chủ nghĩa Mác-Lênin”"
+        },
+        {
+          "id": "B",
+          "text": "“Kiên định và vận dụng phát triển sáng tạo chủ nghĩa Mác-Lênin, tư tưởng Hồ Chí Minh”"
+        },
+        {
+          "id": "C",
+          "text": "“Phát huy và vận dụng phát triển sáng tạo chủ nghĩa Mác-Lênin, tư tưởng Hồ Chí Minh”"
+        },
+        {
+          "id": "D",
+          "text": "“Kiên định và học tập theo tư tưởng Hồ Chí Minh”"
+        }
+      ],
+      "correct": [
+        "B"
+      ]
+    },
+    {
+      "id": 4,
+      "source": "Phần 1 · Chương 1 · Câu 4",
+      "text": "Có bao nhiêu phương pháp luận của việc nghiên cứu tư tưởng Hồ Chí Minh ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "2"
+        },
+        {
+          "id": "B",
+          "text": "3"
+        },
+        {
+          "id": "C",
+          "text": "4"
+        },
+        {
+          "id": "D",
+          "text": "5"
+        }
+      ],
+      "correct": [
+        "D"
+      ]
+    },
+    {
+      "id": 5,
+      "source": "Phần 1 · Chương 1 · Câu 5",
+      "text": "Có mấy ý nghĩa của việc học tập môn học tư tưởng Hồ Chí Minh",
+      "options": [
+        {
+          "id": "A",
+          "text": "3"
+        },
+        {
+          "id": "B",
+          "text": "4"
+        },
+        {
+          "id": "C",
+          "text": "5"
+        },
+        {
+          "id": "D",
+          "text": "6"
+        }
+      ],
+      "correct": [
+        "A"
+      ]
+    },
+    {
+      "id": 6,
+      "source": "Phần 1 · Chương 1 · Câu 6",
+      "text": "\"Nghiên cứu, học tập tư tưởng Hồ Chí Minh đòi hỏi không chỉ biết kế thừa, vận dụng mà còn phải biết phát triển sáng tạo tư tưởng của Người trong điều kiện lịch sử mới, trong bối cảnh cụ thể của đất nước và quốc tế\". Đây là phương pháp luận nào NC TTHCM?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Thống nhất lý luận và thực tiễn"
+        },
+        {
+          "id": "B",
+          "text": "Quan điểm lịch sử - cụ thể"
+        },
+        {
+          "id": "C",
+          "text": "Quan điểm kế thừa và phát triển"
+        }
+      ],
+      "correct": [
+        "C"
+      ]
+    },
+    {
+      "id": 9,
+      "source": "Phần 1 · Chương 1 · Câu 9",
+      "text": "Đảng ta phát động học tập và làm theo Di chúc Chủ tịch Hồ Chí Minh năm nào?",
+      "options": [
+        {
+          "id": "A",
+          "text": "1969"
+        },
+        {
+          "id": "B",
+          "text": "1965"
+        },
+        {
+          "id": "C",
+          "text": "1961"
+        }
+      ],
+      "correct": [
+        "A"
+      ]
+    },
+    {
+      "id": 10,
+      "source": "Phần 1 · Chương 2 · Câu 1",
+      "text": "\"Bao giờ Tây nhổ hết cỏ nước Nam mới hết người Nam đánh Tây\" Câu nói này của ai?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Nguyễn Trung Trực"
+        },
+        {
+          "id": "B",
+          "text": "Nguyễn Ái Quốc"
+        },
+        {
+          "id": "C",
+          "text": "Hồ Chí Minh"
+        }
+      ],
+      "correct": [
+        "A"
+      ]
+    },
+    {
+      "id": 11,
+      "source": "Phần 1 · Chương 2 · Câu 2",
+      "text": "Phong trào Đông Du là do ai khởi xướng?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Phan Bội Châu"
+        },
+        {
+          "id": "B",
+          "text": "Phan Châu Trinh"
+        },
+        {
+          "id": "C",
+          "text": "Vua Hàm Nghi"
+        }
+      ],
+      "correct": [
+        "A"
+      ]
+    },
+    {
+      "id": 12,
+      "source": "Phần 1 · Chương 2 · Câu 3",
+      "text": "Phong trào Duy Tân do ai khởi xướng?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Lương Văn Can"
+        },
+        {
+          "id": "B",
+          "text": "Phan Bội Châu"
+        },
+        {
+          "id": "C",
+          "text": "Phan Châu Trinh"
+        }
+      ],
+      "correct": [
+        "C"
+      ]
+    },
+    {
+      "id": 13,
+      "source": "Phần 1 · Chương 2 · Câu 4",
+      "text": "Trước ảnh hưởng của các cuộc vận động cải cách, của cách mạng dân chủ tư sản ở Trung Quốc và tấm gương Duy Tân của Nhật Bản, Việt Nam xuất hiện các phong trào yêu nước theo...",
+      "options": [
+        {
+          "id": "A",
+          "text": "khuynh hướng xã hội chủ nghĩa"
+        },
+        {
+          "id": "B",
+          "text": "phong kiến"
+        },
+        {
+          "id": "C",
+          "text": "khuynh hướng dân chủ tư sản"
+        }
+      ],
+      "correct": [
+        "C"
+      ]
+    },
+    {
+      "id": 14,
+      "source": "Phần 1 · Chương 2 · Câu 5",
+      "text": "“Đức Phật là đại từ đại bi, cứu khổ cứu nạn, muốn cứu chúng sinh khỏi khổ nạn, Người phải hi sinh tranh đấu, diệt kũ ác ma. Nay đồng bào ta đại đoàn kết, hi sinh của cải xương máu, kháng chiến đến cùng để đánh tan thực dân phản động, để cứu quốc dân ra khỏi khổ nạn, để giữ quyền thống nhất và độc lập Tổ quốc. Thế là chúng ta làm theo lòng đại từ đại bị của Đức Phật Thích Ca, kháng chiến để đưa giống nòi ra khỏi khổ ải nô lệ” Đoạn trích này được Hồ Chí Minh viết trong văn bản nào?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Thư gửi đồng bào Phật tử"
+        },
+        {
+          "id": "B",
+          "text": "Thư gửi hội Phật tử"
+        },
+        {
+          "id": "C",
+          "text": "Thư gửi đồng bào Phật tử miền Nam"
+        }
+      ],
+      "correct": [
+        "B"
+      ]
+    },
+    {
+      "id": 16,
+      "source": "Phần 1 · Chương 2 · Câu 7",
+      "text": "12/1920, tại Đại hội Tua của Đảng Xã hội Pháp, Người đã....",
+      "options": [
+        {
+          "id": "A",
+          "text": "tham gia quốc tế cộng sản"
+        },
+        {
+          "id": "B",
+          "text": "tham gia sáng lập Đảng Cộng sản Pháp."
+        },
+        {
+          "id": "C",
+          "text": "Ra báo người cùng khổ"
+        }
+      ],
+      "correct": [
+        "B"
+      ]
+    },
+    {
+      "id": 17,
+      "source": "Phần 1 · Chương 2 · Câu 8",
+      "text": "Giá trị tư tưởng Hồ Chí Minh đối với cách mạng Việt Nam là....",
+      "options": [
+        {
+          "id": "A",
+          "text": "là nền tảng tư tưởng và kim chỉ nam cho cách mạng Việt Nam trong thời chống phong kiến"
+        },
+        {
+          "id": "B",
+          "text": "đưa cách mạng giải phóng dân tộc Việt Nam đến thắng lợi và bắt đầu xây dựng một xã hội mới trên đất nước ta."
+        },
+        {
+          "id": "C",
+          "text": "là nền tảng tư tưởng và kim chỉ nam cho mọi hành động"
+        }
+      ],
+      "correct": [
+        "B"
+      ]
+    },
+    {
+      "id": 19,
+      "source": "Phần 1 · Chương 2 · Câu 10",
+      "text": "Có mấy cơ sở lý luận hình thành tư tưởng Hồ Chí Minh?",
+      "options": [
+        {
+          "id": "A",
+          "text": "3"
+        },
+        {
+          "id": "B",
+          "text": "4"
+        },
+        {
+          "id": "C",
+          "text": "5"
+        }
+      ],
+      "correct": [
+        "A"
+      ]
+    },
+    {
+      "id": 21,
+      "source": "Phần 1 · Chương 3 · Câu 2",
+      "text": "Theo Hồ Chí Minh“Cách mệnh trước hết phải có gì? Trước hết phải có đảng cách mệnh, để trong thì vận động và tổ chức dân chúng, ngoài thì liên lạc với dân tộc bị áp bức và vô sản giai cấp mọi nơi. Đảng có vững cách mệnh mới thành công, cũng như ................. có vững thuyền mới chạy”.",
+      "options": [
+        {
+          "id": "A",
+          "text": "người cầm lái"
+        },
+        {
+          "id": "B",
+          "text": "thuyền trưởng"
+        },
+        {
+          "id": "C",
+          "text": "người chỉ huy"
+        },
+        {
+          "id": "D",
+          "text": "người lái đò"
+        }
+      ],
+      "correct": [
+        "A"
+      ]
+    },
+    {
+      "id": 27,
+      "source": "Phần 1 · Chương 3 · Câu 8",
+      "text": "Theo Hồ Chí Minh, chủ nghĩa xã hội là",
+      "options": [
+        {
+          "id": "A",
+          "text": "điều kiện để đảm bảo nề độc lập dân tộc vững chắc"
+        },
+        {
+          "id": "B",
+          "text": "mục tiêu trước mắt để có độc lập dân tộc"
+        },
+        {
+          "id": "C",
+          "text": "thành quả của độc lập dân tộc"
+        }
+      ],
+      "correct": [
+        "A"
+      ]
+    },
+    {
+      "id": 33,
+      "source": "Phần 1 · Chương 4 · Câu 4",
+      "text": "Vận dụng một trong những tư tưởng Hồ Chí Minh về công tác xây dựng Đảng trong sạch vững mạng cần phải làm gì?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Phải đề ra đường lối chủ trương cho Nhà nước"
+        },
+        {
+          "id": "B",
+          "text": "Phải tổ chức thực hiện tốt đường lối, chủ trương của Đảng"
+        },
+        {
+          "id": "C",
+          "text": "Phải chú trọng hơn nữa công tác cán bộ"
+        },
+        {
+          "id": "D",
+          "text": "Tuân thủ quy định của pháp luật"
+        }
+      ],
+      "correct": [],
+      "review": [
+        "Phạm vi câu hỏi rộng. C, D cũng mô tả việc có thể góp phần xây dựng Đảng trong sạch, vững mạnh."
+      ],
+      "sourceKey": [
+        "B"
+      ]
+    },
+    {
+      "id": 34,
+      "source": "Phần 1 · Chương 4 · Câu 5",
+      "text": "Một trong những quan điểm của Hồ Chí Minh về xây dựng đội ngũ cán bộ đảng viên là phải",
+      "options": [
+        {
+          "id": "A",
+          "text": "Học tập và làm theo tấm gương đạo đức của Mác - Lênin"
+        },
+        {
+          "id": "B",
+          "text": "Phải gương mẫu trước quần chúng nhân dân"
+        },
+        {
+          "id": "C",
+          "text": "Nghiêm chỉnh thực hiện cương lĩnh, đường lối, quan điểm, chủ trương, nghị quyết và các nguyên tắc xây dựng đảng"
+        },
+        {
+          "id": "D",
+          "text": "Tận tụy phục vụ quần chúng nhân dân"
+        }
+      ],
+      "correct": [],
+      "review": [
+        "B, C và D đều có thể phù hợp với cách hỏi “một trong những quan điểm”."
+      ],
+      "sourceKey": [
+        "C"
+      ]
+    },
+    {
+      "id": 35,
+      "source": "Phần 1 · Chương 4 · Câu 6",
+      "text": "Luận điểm: \"Đảng muốn vững thì phải có chủ nghĩa làm cốt,... Đảng mà không có chủ nghĩa cũng như người không có trí khôn, tàu không có bản chỉ nam\" được trích từ tác phẩm nào của Nguyễn Ái Quốc?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Tuyên ngôn độc lập"
+        },
+        {
+          "id": "B",
+          "text": "Đường Kách mệnh."
+        },
+        {
+          "id": "C",
+          "text": "Điều lệ vắn tắt của Đảng."
+        },
+        {
+          "id": "D",
+          "text": "Thường thức chính trị."
+        }
+      ],
+      "correct": [
+        "B"
+      ]
+    },
+    {
+      "id": 36,
+      "source": "Phần 1 · Chương 4 · Câu 7",
+      "text": "“Dân là chủ” trong nhà nước của dân theo quan niệm Hồ Chí Minh được xác định:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Địa vị, vị thế của người dân"
+        },
+        {
+          "id": "B",
+          "text": "Năng lực, trách niệm của người dân."
+        },
+        {
+          "id": "C",
+          "text": "Mang lại lợi ích cho dân"
+        }
+      ],
+      "correct": [
+        "A"
+      ]
+    },
+    {
+      "id": 37,
+      "source": "Phần 1 · Chương 4 · Câu 8",
+      "text": "Theo Hồ Chí Minh, công tác gốc của Đảng là gì?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Công tác tư tưởng chính trị."
+        },
+        {
+          "id": "B",
+          "text": "Công tác lý luận."
+        },
+        {
+          "id": "C",
+          "text": "Công tác cán bộ."
+        }
+      ],
+      "correct": [
+        "C"
+      ]
+    },
+    {
+      "id": 38,
+      "source": "Phần 1 · Chương 4 · Câu 9",
+      "text": "Theo Hồ Chí Minh, điều gì quan trọng nhất để cán bộ, công chức thực sự phục vụ nhân dân?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Năng lực chuyên môn cao"
+        },
+        {
+          "id": "B",
+          "text": "Có đạo đức cách mạng trong sáng"
+        },
+        {
+          "id": "C",
+          "text": "Thực hiện theo Điều lệ vắn tắt của Đảng"
+        },
+        {
+          "id": "D",
+          "text": "Có nhiều kinh nghiệm thực tế"
+        }
+      ],
+      "correct": [
+        "B"
+      ]
+    },
+    {
+      "id": 39,
+      "source": "Phần 1 · Chương 4 · Câu 10",
+      "text": "Nhà nước của dân theo tư tưởng Hồ Chí Minh nghĩa là:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Chăm lo mọi mặt đời sống của nhân dân"
+        },
+        {
+          "id": "B",
+          "text": "Mọi quyền lực nhà nước và trong xã hội đều thuộc về nhân dân"
+        },
+        {
+          "id": "C",
+          "text": "Mọi công việc nhà nước đều do dân quyết định"
+        }
+      ],
+      "correct": [
+        "B"
+      ]
+    },
+    {
+      "id": 41,
+      "source": "Phần 1 · Chương 5 · Câu 2",
+      "text": "“Đại đoàn kết tức là trước hết phải đoàn kết đại đa số nhân dân, mà đại đa số nhân dân là ............ và các tầng lớp nhân dân lao động khác. Đó là nền gốc của đại đoàn kết. Nó cũng như cái nền của nhà, gốc của cây. Nhưng đã có nền vững, gốc tốt, còn phải đoàn kết các tầng lớp nhân dân khác”",
+      "options": [
+        {
+          "id": "A",
+          "text": "Công nhân, nông dân"
+        },
+        {
+          "id": "B",
+          "text": "Công nhâ, tư sản dân tộc"
+        },
+        {
+          "id": "C",
+          "text": "quần chúng nhân dân"
+        }
+      ],
+      "correct": [
+        "A"
+      ]
+    },
+    {
+      "id": 42,
+      "source": "Phần 1 · Chương 5 · Câu 3",
+      "text": "...............là nơi quy tụ mọi tổ chức và cá nhân yêu nước, tập hợp mọi người dân nước Việt, cả trong nước và kiều bào sinh sống ở nước ngoài. Hãy hoàn thiện quan điểm trên của Hồ Chí Minh.",
+      "options": [
+        {
+          "id": "A",
+          "text": "Mặt trận dân tộc thống nhất"
+        },
+        {
+          "id": "B",
+          "text": "Mật trận phản đế Đông Dương"
+        },
+        {
+          "id": "C",
+          "text": "Mặt trận dân chủ"
+        }
+      ],
+      "correct": [
+        "A"
+      ]
+    },
+    {
+      "id": 43,
+      "source": "Phần 1 · Chương 5 · Câu 4",
+      "text": "Tăng cường đoàn kết giữa các lực lượng cách mạng thế giới đấu tranh cho mục tiêu chung. Đó là.....",
+      "options": [
+        {
+          "id": "A",
+          "text": "hòa bình, độc lập dân tộc, dân chủ và tiến lên CNXH."
+        },
+        {
+          "id": "B",
+          "text": "hòa bình, độc lập dân tộc, dân chủ và giải phóng xã hội."
+        },
+        {
+          "id": "C",
+          "text": "hòa bình, độc lập dân tộc, dân chủ và tiến bộ xã hội."
+        }
+      ],
+      "correct": [
+        "C"
+      ]
+    },
+    {
+      "id": 44,
+      "source": "Phần 1 · Chương 5 · Câu 5",
+      "text": "Theo Hồ Chí Minh, xây dựng khối đại đoàn kết dân tộc trên nền tảng liên minh nào?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Công nhân - Trí thức"
+        },
+        {
+          "id": "B",
+          "text": "Công - Nông - Trí"
+        },
+        {
+          "id": "C",
+          "text": "quần chúng nhân dân lao động."
+        }
+      ],
+      "correct": [
+        "B"
+      ]
+    },
+    {
+      "id": 45,
+      "source": "Phần 1 · Chương 5 · Câu 6",
+      "text": "Hồ Chí Minh xác định nền tảng vững chắc nhất của khối đại đoàn kết dân tộc là gì?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Chủ nghĩa xã hội"
+        },
+        {
+          "id": "B",
+          "text": "Liên minh công - nông - trí thức"
+        },
+        {
+          "id": "C",
+          "text": "Lòng yêu nước và lợi ích dân tộc"
+        }
+      ],
+      "correct": [],
+      "review": [
+        "Câu về nền tảng của khối đại đoàn kết ở cùng chương nêu liên minh công, nông, trí thức. Cần kiểm tra cách dùng “nền tảng vững chắc nhất” ở câu này."
+      ],
+      "sourceKey": [
+        "C"
+      ]
+    },
+    {
+      "id": 46,
+      "source": "Phần 1 · Chương 5 · Câu 7",
+      "text": "Theo Hồ Chí Minh, nguyên tắc quan trọng nhất để củng cố khối đại đoàn kết dân tộc là gì?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Đoàn kết chặt chẽ giữa các tầng lớp nhân dân"
+        },
+        {
+          "id": "B",
+          "text": "Có một tổ chức chính trị duy nhất lãnh đạo"
+        },
+        {
+          "id": "C",
+          "text": "Lấy lợi ích giai cấp công nhân làm trung tâm"
+        },
+        {
+          "id": "D",
+          "text": "Xóa bỏ tất cả các giai cấp khác ngoài công nhân và nông dân"
+        }
+      ],
+      "correct": [
+        "A"
+      ]
+    },
+    {
+      "id": 47,
+      "source": "Phần 1 · Chương 5 · Câu 8",
+      "text": "Khi vận dụng tư tưởng Hồ Chí Minh vào thực tiễn xây dựng khối đại đoàn kết dân tộc hiện nay, Việt Nam cần chú trọng điều gì?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Chăm lo lợi ích thiết thực của nhân dân"
+        },
+        {
+          "id": "B",
+          "text": "Đoàn kết trên cơ sở lợi ích của một số giai cấp nhất định"
+        },
+        {
+          "id": "C",
+          "text": "Chỉ tập trung vào liên minh công - nông - trí thức"
+        }
+      ],
+      "correct": [
+        "A"
+      ]
+    },
+    {
+      "id": 48,
+      "source": "Phần 1 · Chương 5 · Câu 9",
+      "text": "Tại sao Hồ Chí Minh nhấn mạnh đoàn kết là vấn đề có ý nghĩa sống còn của cách mạng?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Vì đoàn kết giúp Việt Nam tránh khỏi xung đột nội bộ"
+        },
+        {
+          "id": "B",
+          "text": "Vì đoàn kết tạo ra sức mạnh tổng hợp để chiến thắng mọi kẻ thù"
+        },
+        {
+          "id": "C",
+          "text": "Vì đoàn kết giúp phát triển kinh tế nhanh chóng"
+        }
+      ],
+      "correct": [
+        "B"
+      ]
+    },
+    {
+      "id": 49,
+      "source": "Phần 1 · Chương 5 · Câu 10",
+      "text": "“Đoàn kết là sức mạnh của chúng ta. Đoàn kết chặt chẽ thì chúng ta nhất định có thể khắc phục mọi khó khăn, phát triển mọi thuận lợi và làm tròn nhiệm vụ mà .... giao phó”.",
+      "options": [
+        {
+          "id": "A",
+          "text": "Nhà nước"
+        },
+        {
+          "id": "B",
+          "text": "Đảng"
+        },
+        {
+          "id": "C",
+          "text": "Nhân dân"
+        },
+        {
+          "id": "D",
+          "text": "Quốc tế cộng sản"
+        }
+      ],
+      "correct": [
+        "C"
+      ]
+    },
+    {
+      "id": 50,
+      "source": "Phần 1 · Chương 5 · Câu 11",
+      "text": "Theo quan điểm Hồ Chí Minh, chủ thể của khối đại đoàn kết toàn dân tộc là ai?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Toàn thể nhân dân"
+        },
+        {
+          "id": "B",
+          "text": "Đảng cộng sản"
+        },
+        {
+          "id": "C",
+          "text": "Công nông trí"
+        },
+        {
+          "id": "D",
+          "text": "Nhà nước"
+        }
+      ],
+      "correct": [
+        "A"
+      ]
+    },
+    {
+      "id": 51,
+      "source": "Phần 1 · Chương 6 · Câu 1",
+      "text": "Chủ tịch Hồ Chí Minh đề cập đạo đức trong quan hệ nào của con người?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Đối với mình, với người, với việc."
+        },
+        {
+          "id": "B",
+          "text": "Đối với đất nước, với nhân dân."
+        },
+        {
+          "id": "C",
+          "text": "Đối với đất nước."
+        }
+      ],
+      "correct": [
+        "A"
+      ]
+    },
+    {
+      "id": 52,
+      "source": "Phần 1 · Chương 6 · Câu 2",
+      "text": "Khi đề cập đến nguyên tắc “Tập thể lãnh đạo, cá nhân phụ trách”, Hồ Chí Minh đã dùng hai khái niệm nào để diễn đạt ý nghĩa tương đương?",
+      "options": [
+        {
+          "id": "A",
+          "text": ". Việc chung việc riêng."
+        },
+        {
+          "id": "B",
+          "text": "Dân chủ và tập trung."
+        },
+        {
+          "id": "C",
+          "text": "Dân chủ và tự quyết."
+        }
+      ],
+      "correct": [
+        "B"
+      ]
+    },
+    {
+      "id": 53,
+      "source": "Phần 1 · Chương 6 · Câu 3",
+      "text": "Theo tư tưởng Hồ Chí Minh, có mấy nguyên tắc xây dựng đạo đức cách mạng?",
+      "options": [
+        {
+          "id": "A",
+          "text": "2"
+        },
+        {
+          "id": "B",
+          "text": "3"
+        },
+        {
+          "id": "C",
+          "text": "4"
+        },
+        {
+          "id": "D",
+          "text": "5"
+        }
+      ],
+      "correct": [
+        "B"
+      ]
+    },
+    {
+      "id": 54,
+      "source": "Phần 1 · Chương 6 · Câu 4",
+      "text": "Theo Hồ Chí Minh, kẻ thù nguy hiểm nhất của đạo đức cách mạng là",
+      "options": [
+        {
+          "id": "A",
+          "text": "bệnh đặc quyền, đặc lợi."
+        },
+        {
+          "id": "B",
+          "text": "chủ nghĩa cá nhân."
+        },
+        {
+          "id": "C",
+          "text": "chủ quan, kiêu ngạo."
+        }
+      ],
+      "correct": [
+        "B"
+      ]
+    },
+    {
+      "id": 55,
+      "source": "Phần 1 · Chương 6 · Câu 5",
+      "text": "Văn hoá là tổng hợp của mọi phương thức sinh hoạt cùng với biểu hiện của nó mà loài người đã sản sinh ra nhằm thích ứng những nhu cầu đời sống và đòi hỏi của sự..................Hãy điền vào khoảng trống trên",
+      "options": [
+        {
+          "id": "A",
+          "text": "sinh tồn"
+        },
+        {
+          "id": "B",
+          "text": "sinh sống"
+        },
+        {
+          "id": "C",
+          "text": "sinh mệnh"
+        }
+      ],
+      "correct": [
+        "A"
+      ]
+    },
+    {
+      "id": 56,
+      "source": "Phần 1 · Chương 6 · Câu 6",
+      "text": "Quan điểm Hồ Chí Minh về vai trò và sức mạnh của đạo đức cách mạng là gì?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Đạo đức là gốc, là nền tảng tinh thần của xã hội, của người cách mạng"
+        },
+        {
+          "id": "B",
+          "text": "Đạo đức là nền tảng xã hội để xây dựng đất nước giàu mạnh hơn"
+        },
+        {
+          "id": "C",
+          "text": "Đạo đức là thước đo lòng kiên trung đối với đất nước"
+        }
+      ],
+      "correct": [
+        "A"
+      ]
+    },
+    {
+      "id": 57,
+      "source": "Phần 1 · Chương 6 · Câu 7",
+      "text": "Trong các tiêu chuẩn đạo đức của Hồ Chí Minh, tiêu chuẩn nào là chuẩn mực đạo đức bao trùm quan trọng nhất?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Cần kiệm liêm chính chí công vô tư"
+        },
+        {
+          "id": "B",
+          "text": "Trung với nước, hiếu với dân"
+        },
+        {
+          "id": "C",
+          "text": "Thương yêu con người, sống có tình nghĩa"
+        }
+      ],
+      "correct": [
+        "B"
+      ]
+    },
+    {
+      "id": 58,
+      "source": "Phần 2 · Câu 1",
+      "text": "Sự kiện nào sau đây có ảnh hưởng tích cực đến phong trào cách mạng Việt Nam trong những năm 1919-1925?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Cách mạng tháng Mười Nga 1917."
+        },
+        {
+          "id": "B",
+          "text": "Phong trào yêu nước của kiều bào phát triển mạnh."
+        },
+        {
+          "id": "C",
+          "text": "Chiến tranh thế giới thứ nhất kết thúc."
+        }
+      ],
+      "correct": [],
+      "review": [
+        "Đáp án gốc tô A. Câu hỏi hỏi một ảnh hưởng tích cực nói chung nên các phương án khác cũng cần được đối chiếu với giáo trình."
+      ],
+      "sourceKey": [
+        "A"
+      ]
+    },
+    {
+      "id": 59,
+      "source": "Phần 2 · Câu 2",
+      "text": "Mâu thuẫn cơ bản nhất của xã hội Việt Nam sau Chiến tranh thế giới thứ nhất là gì?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Mâu thuẫn giữa giai cấp tư sản với chính quyền thực dân Pháp."
+        },
+        {
+          "id": "B",
+          "text": "Mâu thuẫn giữa toàn thể dân tộc Việt Nam với thực dân Pháp."
+        },
+        {
+          "id": "C",
+          "text": "Mâu thuẫn giữa giai cấp công nhân với thực dân Pháp và giai cấp tư sản."
+        }
+      ],
+      "correct": [
+        "B"
+      ]
+    },
+    {
+      "id": 60,
+      "source": "Phần 2 · Câu 3",
+      "text": "Cơ quan ngôn luận của Hội Việt Nam Cách mạng thanh niên là tờ báo nào?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Nhân dân"
+        },
+        {
+          "id": "B",
+          "text": "Nhành lúa"
+        },
+        {
+          "id": "C",
+          "text": "Thanh niên"
+        }
+      ],
+      "correct": [
+        "C"
+      ]
+    },
+    {
+      "id": 61,
+      "source": "Phần 2 · Câu 4",
+      "text": "Hội Việt Nam Cách mạng thanh niên là tổ chức cách mạng đi theo khuynh hướng nào?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Vô sản."
+        },
+        {
+          "id": "B",
+          "text": "Cải lương"
+        },
+        {
+          "id": "C",
+          "text": "Dân chủ tư sản"
+        }
+      ],
+      "correct": [
+        "A"
+      ]
+    },
+    {
+      "id": 62,
+      "source": "Phần 2 · Câu 5",
+      "text": "Hội Việt Nam cách mạng thanh niên được xem là",
+      "options": [
+        {
+          "id": "A",
+          "text": "tổ chức chính trị của giai cấp tiểu tư sản."
+        },
+        {
+          "id": "B",
+          "text": "tổ chức tiền thân của Đảng Cộng sản Việt Nam."
+        },
+        {
+          "id": "C",
+          "text": "tổ chức cách mạng theo khuynh hướng dân chủ tư sản."
+        }
+      ],
+      "correct": [
+        "B"
+      ]
+    },
+    {
+      "id": 63,
+      "source": "Phần 2 · Câu 6",
+      "text": "Năm 1919, Nguyễn Ái Quốc gửi đến Hội nghị Vécxai Bản yêu sách của nhân dân An Nam đòi Chính phủ Pháp thừa nhận quyền",
+      "options": [
+        {
+          "id": "A",
+          "text": "Tự do"
+        },
+        {
+          "id": "B",
+          "text": "Độc lập"
+        },
+        {
+          "id": "C",
+          "text": "Dân chủ"
+        }
+      ],
+      "correct": [],
+      "review": [
+        "Bản yêu sách nêu các quyền tự do và các yêu sách dân chủ. Câu hỏi chưa giới hạn quyền cụ thể."
+      ],
+      "sourceKey": [
+        "A"
+      ]
+    },
+    {
+      "id": 64,
+      "source": "Phần 2 · Câu 7",
+      "text": "Tác phẩm nào dưới đây tập hợp những bài giảng của Nguyễn Ái Quốc tại các lớp huấn luyện đào tạo cán bộ cách mạng ở Quảng Châu (Trung Quốc)?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Đường Kách mệnh."
+        },
+        {
+          "id": "B",
+          "text": "Bản án chế độ thực dân Pháp."
+        },
+        {
+          "id": "C",
+          "text": "Nhật kí trong tù"
+        }
+      ],
+      "correct": [
+        "A"
+      ]
+    },
+    {
+      "id": 65,
+      "source": "Phần 2 · Câu 8",
+      "text": "Sự kiện nào đánh dấu Nguyễn Ái Quốc bước đầu tìm thấy con đường cứu nước đúng đắn?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Đọc Sơ thảo luận cương của Lênin vê vấn đề dân tộc và thuộc địa."
+        },
+        {
+          "id": "B",
+          "text": "Tham dự đại hội Tua và tham gia sáng lập đảng xã hội Pháp."
+        },
+        {
+          "id": "C",
+          "text": "Gửi yêu sách tám điểm đến Hội nghị vecxai."
+        }
+      ],
+      "correct": [
+        "A"
+      ]
+    },
+    {
+      "id": 66,
+      "source": "Phần 2 · Câu 9",
+      "text": "Nếu không có sự chủ trì của Nguyễn Ái Quốc tại Hội nghị hợp nhất các tổ chức cộng sản đầu năm 1930, nguy cơ lớn nhất đối với phong trào cách mạng Việt Nam lúc đó là gì?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Không có giai cấp công nhân Việt Nam."
+        },
+        {
+          "id": "B",
+          "text": "Phong trào dân tộc hoàn toàn chấm dứt."
+        },
+        {
+          "id": "C",
+          "text": "Tình trạng chia rẽ giữa các tổ chức cộng sản tiếp tục kéo dài."
+        }
+      ],
+      "correct": [
+        "C"
+      ]
+    },
+    {
+      "id": 67,
+      "source": "Phần 2 · Câu 10",
+      "text": "Điểm khác biệt cơ bản giữa Nguyễn Ái Quốc với các nhà yêu nước tiền bối khi tìm đường cứu nước là:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Chủ trương dựa vào các nước phương Tây."
+        },
+        {
+          "id": "B",
+          "text": "Xác định con đường cách mạng vô sản là con đường giải phóng dân tộc."
+        },
+        {
+          "id": "C",
+          "text": "Chỉ chú trọng đấu tranh vũ trang."
+        }
+      ],
+      "correct": [
+        "B"
+      ]
+    },
+    {
+      "id": 68,
+      "source": "Phần 2 · Câu 11",
+      "text": "Vai trò nào của Nguyễn Ái Quốc được xem là tiền đề tư tưởng quan trọng nhất cho sự ra đời của Đảng Cộng sản Việt Nam?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Thành lập Hội Việt Nam Cách mạng Thanh niên."
+        },
+        {
+          "id": "B",
+          "text": "Truyền bá chủ nghĩa Mác – Lênin vào Việt Nam."
+        },
+        {
+          "id": "C",
+          "text": "Thành lập Công hội đỏ."
+        }
+      ],
+      "correct": [
+        "B"
+      ]
+    },
+    {
+      "id": 69,
+      "source": "Phần 2 · Câu 12",
+      "text": "Nhận định nào phản ánh đầy đủ nhất vai trò của Nguyễn Ái Quốc đối với sự ra đời của Đảng Cộng sản Việt Nam?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Người chỉ là đại diện của Quốc tế Cộng sản tại Đông Dương."
+        },
+        {
+          "id": "B",
+          "text": "Người là người triệu tập hội nghị thành lập Đảng."
+        },
+        {
+          "id": "C",
+          "text": "Người chuẩn bị về chính trị, tư tưởng, tổ chức và trực tiếp chủ trì việc thành lập Đảng."
+        }
+      ],
+      "correct": [
+        "C"
+      ]
+    },
+    {
+      "id": 70,
+      "source": "Phần 2 · Câu 13",
+      "text": "Hồ Chí Minh dạy: Đảng viên phải “lo trước..., vui sau...”. Chọn đáp án đúng điền vào dấu “...”.",
+      "options": [
+        {
+          "id": "A",
+          "text": "Thiên hạ/ thiên hạ."
+        },
+        {
+          "id": "B",
+          "text": "Nhân dân/ Nhân dân"
+        },
+        {
+          "id": "C",
+          "text": "thiên hạ/ Nhân dân"
+        }
+      ],
+      "correct": [
+        "A"
+      ]
+    },
+    {
+      "id": 71,
+      "source": "Phần 2 · Câu 14",
+      "text": "Chọn cụm từ đúng điền vào chỗ trống: Trong Cương lĩnh chính trị đầu tiên của Đảng do Nguyễn Ái Quốc soạn thảo đã xác định phương hướng chiến lược là: “làm tư sản dân quyền cách mạng và thổ địa cách mạng để đi tới ….",
+      "options": [
+        {
+          "id": "A",
+          "text": "Chủ nghĩa tư bản"
+        },
+        {
+          "id": "B",
+          "text": "Chủ nghĩa tư bản"
+        },
+        {
+          "id": "C",
+          "text": "Xã hội Cộng sản"
+        }
+      ],
+      "correct": [
+        "C"
+      ],
+      "review": [
+        "Hai phương án A và B cùng ghi “Chủ nghĩa tư bản”. Đáp án tô vàng C vẫn phân biệt được."
+      ]
+    },
+    {
+      "id": 72,
+      "source": "Phần 2 · Câu 15",
+      "text": "Chọn đáp án đúng điền vào dấu “…” trong Di chúc của Chủ tịch Hồ Chí Minh: “việc cần phải làm trước tiên là ..., làm cho mỗi đảng viên, mỗi đoàn viên, mỗi chi bộ đều ra sức làm tròn nhiệm vụ đảng giao phó cho mình, toàn tâm toàn ý phục vụ nhân dân”.",
+      "options": [
+        {
+          "id": "A",
+          "text": "xây dựng lại Đảng."
+        },
+        {
+          "id": "B",
+          "text": "chỉnh đốn lại Đảng."
+        },
+        {
+          "id": "C",
+          "text": "xây dựng và chỉnh đốn lại Đảng."
+        }
+      ],
+      "correct": [
+        "B"
+      ]
+    },
+    {
+      "id": 73,
+      "source": "Phần 2 · Câu 16",
+      "text": "Chọn đáp án đúng điền vào dấu “…” theo thứ tự trong lời dạy của Chủ tịch Hồ Chí Minh: “Đạo đức cách mạng không phải trên trời sa xuống. Nó do đấu tranh, rèn luyện bền bỉ hằng ngày mà phát triển và củng cố. Cũng như … càng mài càng sáng, … càng luyện càng trong”.",
+      "options": [
+        {
+          "id": "A",
+          "text": "“vàng” và “ngọc”."
+        },
+        {
+          "id": "B",
+          "text": "“đá” và “vàng”."
+        },
+        {
+          "id": "C",
+          "text": "“ngọc” và “vàng”."
+        }
+      ],
+      "correct": [
+        "C"
+      ]
+    },
+    {
+      "id": 74,
+      "source": "Phần 2 · Câu 17",
+      "text": "Đảng Cộng sản Việt Nam xác định: “Cùng với chủ nghĩa Mác - Lênin, tư tưởng Hồ Chí Minh là nền tảng tư tưởng, kim chỉ nam cho hành động cách mạng” trong nhiệm kỳ Đại hội nào?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Nhiệm kỳ Đại hội VI."
+        },
+        {
+          "id": "B",
+          "text": "Nhiệm kỳ Đại hội VII."
+        },
+        {
+          "id": "C",
+          "text": "Nhiệm kỳ Đại hội VIII."
+        }
+      ],
+      "correct": [
+        "B"
+      ]
+    },
+    {
+      "id": 75,
+      "source": "Phần 2 · Câu 18",
+      "text": "Hồ Chí Minh khẳng định hệ thống lý luận cách mạng của chủ nghĩa Mác - Lênin là:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Bửu bối thần kỳ"
+        },
+        {
+          "id": "B",
+          "text": "Bửu bối diệu kỳ"
+        },
+        {
+          "id": "C",
+          "text": "Cẩm nang thần kỳ"
+        }
+      ],
+      "correct": [
+        "C"
+      ]
+    },
+    {
+      "id": 76,
+      "source": "Phần 3 · Câu 1",
+      "text": "Theo Nghị quyết số 24C/18.65 năm 1987 của Đại hội đồng UNESCO, Chủ tịch Hồ Chí Minh được vinh danh như thế nào?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Anh hùng giải phóng dân tộc và nhà văn hóa lớn của Việt Nam."
+        },
+        {
+          "id": "B",
+          "text": "Anh hùng giải phóng dân tộc và nhà văn hóa kiệt xuất của thế giới."
+        },
+        {
+          "id": "C",
+          "text": "Anh hùng giải phóng dân tộc và nhà chính trị kiệt xuất."
+        },
+        {
+          "id": "D",
+          "text": "Anh hùng giải phóng dân tộc và nhà văn hóa kiệt xuất của Việt Nam."
+        }
+      ],
+      "correct": [
+        "D"
+      ]
+    },
+    {
+      "id": 78,
+      "source": "Phần 3 · Câu 3",
+      "text": "Câu nói của Chủ tịch Hồ Chí Minh: “Đồng bào Nam Bộ là dân nước Việt Nam. Sông có thể cạn, núi có thể mòn, song chân lý đó không bao giờ thay đổi” được thể hiện trong tác phẩm nào sau đây?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Tuyên ngôn Độc lập năm 1945."
+        },
+        {
+          "id": "B",
+          "text": "Di chúc."
+        },
+        {
+          "id": "C",
+          "text": "Thư gửi đồng bào Nam Bộ năm 1946."
+        },
+        {
+          "id": "D",
+          "text": "Nhật ký trong tù."
+        }
+      ],
+      "correct": [
+        "C"
+      ]
+    },
+    {
+      "id": 80,
+      "source": "Phần 3 · Câu 5",
+      "text": "Theo tư tưởng Hồ Chí Minh, độc lập dân tộc có vai trò như thế nào đối với chủ nghĩa xã hội?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Là cơ sở của chủ nghĩa xã hội."
+        },
+        {
+          "id": "B",
+          "text": "Là thành quả của chủ nghĩa xã hội."
+        },
+        {
+          "id": "C",
+          "text": "Là quy luật tất yếu duy nhất để xây dựng chủ nghĩa xã hội."
+        },
+        {
+          "id": "D",
+          "text": "Là điều kiện, tiền đề để đi lên chủ nghĩa xã hội."
+        }
+      ],
+      "correct": [],
+      "review": [
+        "Các bản trùng trong Chương 3 tô hai cách diễn đạt khác nhau. Phương án A và D ở bản này gần nghĩa."
+      ],
+      "sourceKey": [
+        "D"
+      ]
+    },
+    {
+      "id": 81,
+      "source": "Phần 3 · Câu 6",
+      "text": "Theo Hồ Chí Minh, cách mạng giải phóng dân tộc muốn thắng lợi phải đi theo con đường nào?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Cách mạng vô sản."
+        },
+        {
+          "id": "B",
+          "text": "Cách mạng dân chủ tư sản."
+        },
+        {
+          "id": "C",
+          "text": "Cách mạng tư sản."
+        },
+        {
+          "id": "D",
+          "text": "Cải cách đất nước theo con đường tư bản chủ nghĩa."
+        }
+      ],
+      "correct": [
+        "A"
+      ]
+    },
+    {
+      "id": 82,
+      "source": "Phần 3 · Câu 7",
+      "text": "Chủ tịch Hồ Chí Minh từng khẳng định: “Tôi chỉ có một ham muốn, ham muốn tột bậc, là làm sao cho nước ta hoàn toàn ............, dân ta được hoàn toàn tự do, đồng bào ai cũng có cơm ăn, áo mặc, ai cũng được học hành”. Hãy điền từ còn thiếu vào chỗ trống.",
+      "options": [
+        {
+          "id": "A",
+          "text": "Giải phóng."
+        },
+        {
+          "id": "B",
+          "text": "Tự do."
+        },
+        {
+          "id": "C",
+          "text": "Sạch bóng quân thù."
+        },
+        {
+          "id": "D",
+          "text": "Độc lập."
+        }
+      ],
+      "correct": [
+        "D"
+      ]
+    },
+    {
+      "id": 83,
+      "source": "Phần 3 · Câu 8",
+      "text": "Theo tư tưởng Hồ Chí Minh, muốn xây dựng chủ nghĩa xã hội trước hết cần có yếu tố nào?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Sự giúp đỡ của quốc tế."
+        },
+        {
+          "id": "B",
+          "text": "Hệ thống cơ sở vật chất – kỹ thuật hiện đại."
+        },
+        {
+          "id": "C",
+          "text": "Con người xã hội chủ nghĩa."
+        },
+        {
+          "id": "D",
+          "text": "Nền kinh tế phát triển."
+        }
+      ],
+      "correct": [
+        "C"
+      ]
+    },
+    {
+      "id": 84,
+      "source": "Phần 3 · Câu 9",
+      "text": "Theo Hồ Chí Minh, một trong số các nguyên tắc xây dựng chủ nghĩa xã hội trong thời kỳ quá độ là....",
+      "options": [
+        {
+          "id": "A",
+          "text": "Lấy dân làm gốc"
+        },
+        {
+          "id": "B",
+          "text": "Tập trung dân chủ là tiêu chí tiên quyết"
+        },
+        {
+          "id": "C",
+          "text": "Mọi tư tưởng và hành động phải thực hiện trên nền tảng chủ nghĩa Mác - Lê nin"
+        },
+        {
+          "id": "D",
+          "text": "Là mục tiêu chỉ có thể đạt được sau khi hoàn thành xây dựng chủ nghĩa xã hội."
+        }
+      ],
+      "correct": [
+        "C"
+      ]
+    },
+    {
+      "id": 85,
+      "source": "Phần 3 · Câu 10",
+      "text": "Hồ Chí Minh khẳng định: “Cần có sự lãnh đạo của một đảng cách mạng chân chính của giai cấp công nhân, toàn tâm toàn ý phục vụ nhân dân. Chỉ có sự lãnh đạo của một đảng biết vận dụng một cách sáng tạo chủ nghĩa Mác – Lênin vào điều kiện cụ thể của nước mình mới có thể đưa .............. và cách mạng xã hội chủ nghĩa đến thành công”. Hãy hoàn thiện nhận định trên.",
+      "options": [
+        {
+          "id": "A",
+          "text": "Cách mạng vô sản."
+        },
+        {
+          "id": "B",
+          "text": "Cách mạng dân chủ tư sản."
+        },
+        {
+          "id": "C",
+          "text": "Cách mạng giải phóng dân tộc."
+        },
+        {
+          "id": "D",
+          "text": "Cách mạng bạo lực vũ trang."
+        }
+      ],
+      "correct": [
+        "C"
+      ]
+    },
+    {
+      "id": 86,
+      "source": "Phần 3 · Câu 11",
+      "text": "Lí luận giải phóng dân tộc của Nguyễn Ái Quốc có giá trị nào sau đây đối với lịch sử Việt Nam trong những năm 20 của thế kỉ XX?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Chấm dứt tình trạng khủng hoảng về đường lối cứu nước đầu thế kỉ XX."
+        },
+        {
+          "id": "B",
+          "text": "Chuẩn bị những điều kiện cho sự ra đời của Đảng Cộng sản Đông Dương."
+        },
+        {
+          "id": "C",
+          "text": "Làm cho phong trào yêu nước chuyển hẳn sang khuynh hướng vô sản."
+        },
+        {
+          "id": "D",
+          "text": "Là vũ khí tư tưởng của phong trào dân tộc theo khuynh hướng vô sản."
+        }
+      ],
+      "correct": [
+        "D"
+      ]
+    },
+    {
+      "id": 87,
+      "source": "Phần 3 · Câu 12",
+      "text": "Từ 1919-1925, Nguyễn Ái Quốc đã có công lao gì đối với cách mạng Việt Nam ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Chuẩn bị tư tưởng, chính trị, tổ chức cho sự thành lập Đảng."
+        },
+        {
+          "id": "B",
+          "text": "Truyền bá chủ nghĩa Mác-Lênin vào Việt Nam."
+        },
+        {
+          "id": "C",
+          "text": "Thành lập Hội Việt Nam cách mạng thanh niên."
+        },
+        {
+          "id": "D",
+          "text": "Đọc sơ thảo lần thứ nhất những luận cương của Lenin."
+        }
+      ],
+      "correct": [],
+      "review": [
+        "B và C là các hoạt động cụ thể trong giai đoạn được hỏi. Câu hỏi chưa yêu cầu chọn phương án đầy đủ nhất."
+      ],
+      "sourceKey": [
+        "A"
+      ]
+    },
+    {
+      "id": 88,
+      "source": "Phần 3 · Câu 13",
+      "text": "Trước sự xâm lược của thực dân Pháp, phong trào đấu tranh nào sau đây KHÔNG theo khuynh hướng dân chủ tư sản?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Phong trào Cần vương"
+        },
+        {
+          "id": "B",
+          "text": "Phong trào Đông du"
+        },
+        {
+          "id": "C",
+          "text": "Phong trào Đông kinh nghĩa thục"
+        },
+        {
+          "id": "D",
+          "text": "Khởi nghĩa Yên Bái"
+        }
+      ],
+      "correct": [
+        "A"
+      ]
+    },
+    {
+      "id": 89,
+      "source": "Phần 3 · Câu 14",
+      "text": "Chủ tịch Hồ Chí Minh từng chỉ rõ: “Kẻ địch bên trong là .................... của kẻ địch bên ngoài. Địch bên ngoài không đáng sợ. Địch bên trong đáng sợ hơn, vì nó phá hoại từ trong phá ra”. Hãy hoàn thiện quan điểm trên.",
+      "options": [
+        {
+          "id": "A",
+          "text": "Một người thân thiết."
+        },
+        {
+          "id": "B",
+          "text": "Một bạn thân."
+        },
+        {
+          "id": "C",
+          "text": "Một bạn đồng minh."
+        },
+        {
+          "id": "D",
+          "text": "Một người thân cận."
+        }
+      ],
+      "correct": [
+        "C"
+      ]
+    },
+    {
+      "id": 90,
+      "source": "Phần 3 · Câu 15",
+      "text": "Trong công tác cán bộ, Hồ Chí Minh quan niệm như thế nào?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Cán bộ là nòng cốt của sự nghiệp đấu tranh giải phóng dân tộc."
+        },
+        {
+          "id": "B",
+          "text": "Muôn việc thành công hay thất bại đều do cán bộ tốt hay kém."
+        },
+        {
+          "id": "C",
+          "text": "Muôn việc hoạt động cách mạng thành công hoặc không thành công đều do cán bộ tốt hay kém"
+        },
+        {
+          "id": "D",
+          "text": "Cán bộ là lực lượng đấu tranh chủ yếu của cách mạng."
+        }
+      ],
+      "correct": [],
+      "review": [
+        "B và C đều diễn đạt nhận định rằng kết quả công việc phụ thuộc vào chất lượng cán bộ."
+      ],
+      "sourceKey": [
+        "B"
+      ]
+    },
+    {
+      "id": 91,
+      "source": "Phần 3 · Câu 16",
+      "text": "Điểm đặc sắc nhất trong tư tưởng Hồ Chí Minh về Nhà nước pháp quyền là gì?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Kết hợp pháp luật và đạo đức."
+        },
+        {
+          "id": "B",
+          "text": "Coi trọng luật pháp trong quản lý xã hội."
+        },
+        {
+          "id": "C",
+          "text": "Bảo đảm tính nghiêm minh của pháp luật."
+        },
+        {
+          "id": "D",
+          "text": "Đề cao đạo đức trong quản lý xã hội."
+        }
+      ],
+      "correct": [
+        "A"
+      ]
+    },
+    {
+      "id": 92,
+      "source": "Phần 3 · Câu 17",
+      "text": "“Đưa hổ cửa trước, rước beo cửa sau” là câu nói của Nguyễn Ái Quốc khi nói về chủ trương cứu nước của ai?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Phan Chu Trinh."
+        },
+        {
+          "id": "B",
+          "text": "Nguyễn Thái Học."
+        },
+        {
+          "id": "C",
+          "text": "Hoàng Hoa Thám."
+        },
+        {
+          "id": "D",
+          "text": "Phan Bội Châu"
+        }
+      ],
+      "correct": [
+        "D"
+      ]
+    },
+    {
+      "id": 93,
+      "source": "Phần 3 · Câu 18",
+      "text": "Hồ Chí Minh từng nhận định: \"Học thuyết...có ưu điểm là sự tu dưỡng đạo đức cá nhân. Tôn giáo ......có ưu điểm là lòng nhân ái cao cả. Chủ nghĩa....có ưu điểm là phương pháp làm việc biện chứng\". Anh (chị) hãy điền vào các khoảng trống trên.",
+      "options": [
+        {
+          "id": "A",
+          "text": "Mác – Lê nin – Ăngghen"
+        },
+        {
+          "id": "B",
+          "text": "Mác - Khổng Tử - Tôn Dật Tiên"
+        },
+        {
+          "id": "C",
+          "text": "Giêsu - Khổng Tử - Mác"
+        },
+        {
+          "id": "D",
+          "text": "Khổng Tử - Giêsu – Mác"
+        }
+      ],
+      "correct": [
+        "D"
+      ]
+    },
+    {
+      "id": 94,
+      "source": "Phần 3 · Câu 19",
+      "text": "Đối với sự phát triển tiến bộ của nhân loại Tư tưởng Hồ Chí Minh....",
+      "options": [
+        {
+          "id": "A",
+          "text": "góp phần cho xã hội phát triển hơn các nước tư bản chủ nghĩa."
+        },
+        {
+          "id": "B",
+          "text": "góp phần mở ra cho các dân tộc thuộc địa con đường giải phóng dân tộc chống thực dân xâm lược"
+        },
+        {
+          "id": "C",
+          "text": "góp phần mở ra cho các dân tộc thuộc địa con đường giải phóng dân tộc và ngày càng phát triển"
+        },
+        {
+          "id": "D",
+          "text": "góp phần mở ra cho các dân tộc thuộc địa con đường giải phóng dân tộc gắn với sự tiến bộ xã hội"
+        }
+      ],
+      "correct": [
+        "D"
+      ]
+    },
+    {
+      "id": 95,
+      "source": "Phần 3 · Câu 20",
+      "text": "Trong quá trình thực hiện một dự án học tập theo nhóm, Minh được giao phụ trách kinh phí và tổng hợp kết quả. Để hoàn thành nhiệm vụ, Minh chủ động lập kế hoạch làm việc, phân chia thời gian hợp lý; sử dụng tiết kiệm kinh phí của nhóm; công khai các khoản thu, chi và từ chối đề nghị khai khống chi phí để chia nhau số tiền còn lại. Khi phát hiện một thành viên chưa hoàn thành phần việc, Minh thẳng thắn góp ý trên tinh thần xây dựng, đồng thời cùng nhóm tìm cách khắc phục. Hành động của Minh thể hiện rõ nhất điều gì theo tư tưởng Hồ Chí Minh?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Minh vận dụng đồng bộ bốn đức tính Cần – Kiệm – Liêm – Chính, thể hiện qua sự chăm chỉ, tiết kiệm, trung thực trong quản lý tài chính và ngay thẳng trong thực hiện trách nhiệm."
+        },
+        {
+          "id": "B",
+          "text": "Minh thể hiện đức tính Liêm, vì từ chối khai khống chi phí, còn việc lập kế hoạch và góp ý với thành viên không liên quan đến đạo đức theo tư tưởng Hồ Chí Minh."
+        },
+        {
+          "id": "C",
+          "text": "Minh chủ yếu thể hiện đức tính Cần, vì chăm chỉ và hoàn thành nhiệm vụ là tiêu chí quan trọng nhất của người sinh viên."
+        },
+        {
+          "id": "D",
+          "text": "Minh thể hiện đức tính Kiệm, vì biết tiết kiệm kinh phí và hạn chế những khoản chi không cần thiết trong học tập."
+        }
+      ],
+      "correct": [
+        "A"
+      ]
+    }
+  ]
+}

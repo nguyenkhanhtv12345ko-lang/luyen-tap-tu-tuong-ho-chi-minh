@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#F6F4FC">
+  <meta name="description" content="Luyện câu hỏi trắc nghiệm Tư tưởng Hồ Chí Minh, theo dõi tiến độ và ôn lại câu sai.">
+  <title>Luyện tập Tư tưởng Hồ Chí Minh</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;650;700;750;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./style.css">
+  <script type="module" src="./app.mjs"></script>
+</head>
+<body>
+  <a class="skip" href="#question">Đến câu hỏi</a>
+  <header class="top">
+    <div class="top-inner">
+      <div class="identity">
+        <span class="brand-icon" aria-hidden="true"><svg width="21" height="21" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.65" stroke-linecap="round" stroke-linejoin="round"><path d="M12 7c-2.1-2-5-2.6-9-2v13c4-.6 6.9 0 9 2 2.1-2 5-2.6 9-2V5c-4-.6-6.9 0-9 2Zm0 0v13"/></svg></span>
+        <div><strong>Tư tưởng Hồ Chí Minh</strong><span id="active-title">Toàn bộ câu hỏi</span></div>
+      </div>
+      <div class="top-actions">
+        <button type="button" id="open-menu" disabled class="button secondary"><svg class="icon" aria-hidden="true"><use href="#list-icon"/></svg> Chọn đề</button>
+        <button type="button" id="new-run" disabled class="button primary"><svg class="icon" aria-hidden="true"><use href="#reset-icon"/></svg> Lượt luyện mới</button>
+      </div>
+    </div>
+  </header>
+
+  <main class="layout">
+    <div class="main-column">
+      <article class="card question-card" id="question" tabindex="-1" aria-labelledby="question-text">
+        <div class="question-tools">
+          <div class="question-meta"><span id="question-count" class="tag">Câu 1 / 76</span><span id="original-number"></span></div>
+          <button id="mark" type="button" disabled class="button mark" aria-pressed="false"><svg class="icon" aria-hidden="true"><use href="#mark-icon"/></svg><span>Đánh dấu</span></button>
+        </div>
+        <h1 id="question-text">Đang tải câu hỏi…</h1>
+        <p id="source-note" class="source-note" hidden></p>
+        <div id="options" class="options" aria-label="Phương án trả lời"></div>
+        <div id="feedback" class="feedback" role="status" aria-live="polite" hidden></div>
+        <section id="study-notes" class="study-notes" aria-labelledby="study-notes-title" hidden>
+          <h2 id="study-notes-title">Giải thích và tham chiếu</h2>
+          <p id="explanation-text"></p>
+        </section>
+        <div class="controls" aria-label="Điều khiển câu hỏi">
+          <button id="previous" class="button secondary" type="button">Câu trước</button>
+          <button id="next" class="button primary" type="button">Câu sau</button>
+        </div>
+        <div class="keys" aria-label="Phím tắt">
+          <span><kbd>A–D</kbd> <kbd>↑ ↓</kbd> chọn</span>
+          <span><kbd>Enter</kbd> trả lời</span><span><kbd>← →</kbd> chuyển câu</span>
+        </div>
+      </article>
+    </div>
+
+    <aside class="card progress-card" aria-labelledby="progress-heading">
+      <div class="progress-title"><h2 id="progress-heading">Tiến độ</h2><span id="storage-status" role="status">Tự lưu</span></div>
+      <div class="progress-caption"><span id="answered-count">0 đã làm</span><strong id="percent">0%</strong></div>
+      <progress id="progress-bar" value="0" max="1" aria-label="Số câu đã làm"></progress>
+      <dl class="stats">
+        <div class="good"><dt>Đúng</dt><dd id="right-count">0</dd></div>
+        <div class="bad"><dt>Sai</dt><dd id="wrong-count">0</dd></div>
+        <div class="neutral"><dt>Chưa làm</dt><dd id="pending-count">0</dd></div>
+      </dl>
+      <label class="filter-label" for="filter">Danh sách câu <select id="filter">
+        <option value="all">Tất cả</option><option value="wrong">Câu sai</option>
+        <option value="pending">Chưa làm</option><option value="marked">Đã đánh dấu</option>
+        <option value="review">Cần đối chiếu</option>
+      </select></label>
+      <div class="question-grid" id="question-grid"></div>
+      <p class="grid-empty" id="grid-empty" hidden>Không có câu nào trong bộ lọc này.</p>
+      <div class="legend"><span><i class="dot current"></i> Hiện tại</span><span><i class="dot marked"></i> Đã đánh dấu</span></div>
+      <div id="review-links" class="review-links"></div>
+      <div class="review-actions">
+        <button class="button secondary full" id="retry" type="button" disabled>Làm lại câu sai</button>
+        <button class="button secondary full" id="back-main" type="button" hidden>Quay lại lượt chính</button>
+      </div>
+    </aside>
+  </main>
+
+  <dialog id="menu" aria-labelledby="menu-title">
+    <form id="menu-form">
+      <div class="dialog-title"><h2 id="menu-title">Chọn đề</h2><button class="button secondary close" type="button" data-close="menu" aria-label="Đóng">×</button></div>
+      <label>Bộ câu hỏi<select id="set"></select></label>
+      <label>Thứ tự luyện tập<select id="shuffle">
+        <option value="original">Nguyên bản</option><option value="questions">Đảo câu hỏi</option>
+        <option value="options">Đảo phương án</option><option value="both">Đảo cả hai</option>
+      </select></label>
+      <button class="button primary full" type="submit">Áp dụng</button>
+
+
+    </form>
+  </dialog>
+
+  <dialog id="confirm" aria-labelledby="confirm-title">
+    <form method="dialog">
+      <div class="dialog-title"><h2 id="confirm-title">Bắt đầu lượt luyện mới</h2></div>
+      <p id="confirm-text">Tiến độ của lượt hiện tại sẽ được đặt lại. Các câu đã đánh dấu vẫn được lưu.</p>
+      <div class="dialog-actions"><button class="button secondary" value="cancel">Hủy</button><button class="button primary" value="confirm">Bắt đầu</button></div>
+    </form>
+  </dialog>
+
+  <svg width="0" height="0" aria-hidden="true" class="symbols">
+    <symbol id="list-icon" viewBox="0 0 24 24"><path d="M9 6h11M9 12h11M9 18h11M4 6h.01M4 12h.01M4 18h.01"/></symbol>
+    <symbol id="reset-icon" viewBox="0 0 24 24"><path d="M4 11a8 8 0 1 1 2 6m-2-6V5m0 6h6"/></symbol>
+    <symbol id="mark-icon" viewBox="0 0 24 24"><path d="M6 5a1 1 0 0 1 1-1h10a1 1 0 0 1 1 1v15l-6-4-6 4z"/></symbol>
+  </svg>
+</body>
+</html>
