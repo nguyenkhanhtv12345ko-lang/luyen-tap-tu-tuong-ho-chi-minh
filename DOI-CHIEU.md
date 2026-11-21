@@ -56,3 +56,5 @@ Số câu gốc trên web là vị trí của câu trong toàn bộ tài liệu 
 - Chương 4: 10 câu
 - Chương 5: 10 câu
 - Chương 6: 7 câu
+- Đề 1 · Ôn tập theo ảnh bài giảng: 24 câu
+- Đề 2 · Tham khảo VietJack: 18 câu

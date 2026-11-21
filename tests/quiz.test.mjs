@@ -7,12 +7,26 @@ const catalog = JSON.parse(readFileSync(new URL("../questions.json", import.meta
 const map = new Map(catalog.questions.map(question => [question.id, question]));
 const sorted = values => [...values].sort((a, b) => a - b);
 
-test("95 source entries reduce to 76 unique questions across all 10 groups", () => {
+test("76 original questions and two additional exams remain in separate groups", () => {
   assert.equal(catalog.sourceCount, 95);
-  assert.equal(map.size, 76);
-  assert.equal(catalog.groups.length, 10);
-  assert.deepEqual(catalog.groups.map(group => group.ids.length), [76, 53, 18, 20, 7, 10, 9, 10, 10, 7]);
-  assert.deepEqual(catalog.groups[0].ids, sorted(map.keys()));
+  assert.equal(map.size, 118);
+  assert.equal(catalog.groups.length, 12);
+  assert.deepEqual(catalog.groups.map(group => group.ids.length), [76, 53, 18, 20, 7, 10, 9, 10, 10, 7, 24, 18]);
+  const originalIds = new Set(catalog.groups[0].ids);
+  assert.ok([...originalIds].every(id => id <= 95));
+  for (const [groupId, size] of [["exam-1", 24], ["exam-2", 18]]) {
+    const run = createRun(catalog, groupId, "both", null, () => 0);
+    assert.equal(run.ids.length, size);
+    assert.deepEqual(sorted(run.ids.map(id => map.get(id).sourceNumber)),
+      Array.from({ length: size }, (_, i) => i + 1));
+    for (const id of run.ids) {
+      const question = map.get(id);
+      assert.ok(!originalIds.has(id));
+      assert.equal(question.correct.length, 1);
+      assert.ok(submit(run, question, question.correct[0]));
+    }
+    assert.equal(stats(run, map).right, size);
+  }
   for (const group of catalog.groups) {
     assert.equal(new Set(group.ids).size, group.ids.length);
     assert.ok(group.ids.every(id => map.has(id)));

@@ -280,6 +280,60 @@
         56,
         57
       ]
+    },
+    {
+      "id": "exam-1",
+      "label": "Đề 1 · Ôn tập theo ảnh bài giảng",
+      "ids": [
+        101,
+        102,
+        103,
+        104,
+        105,
+        106,
+        107,
+        108,
+        109,
+        110,
+        111,
+        112,
+        113,
+        114,
+        115,
+        116,
+        117,
+        118,
+        119,
+        120,
+        121,
+        122,
+        123,
+        124
+      ]
+    },
+    {
+      "id": "exam-2",
+      "label": "Đề 2 · Tham khảo VietJack",
+      "ids": [
+        201,
+        202,
+        203,
+        204,
+        205,
+        206,
+        207,
+        208,
+        209,
+        210,
+        211,
+        212,
+        213,
+        214,
+        215,
+        216,
+        217,
+        218
+      ]
     }
   ],
   "questions": [
@@ -2112,6 +2166,1140 @@
       ],
       "correct": [
         "A"
+      ]
+    },
+    {
+      "id": 101,
+      "source": "Đề 1",
+      "sourceNumber": 1,
+      "text": "Định nghĩa hoàn chỉnh hơn về tư tưởng Hồ Chí Minh được slide gắn với Đại hội nào?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Đại hội V"
+        },
+        {
+          "id": "B",
+          "text": "Đại hội VII"
+        },
+        {
+          "id": "C",
+          "text": "Đại hội XI"
+        },
+        {
+          "id": "D",
+          "text": "Đại hội XIII"
+        }
+      ],
+      "correct": [
+        "C"
+      ]
+    },
+    {
+      "id": 102,
+      "source": "Đề 1",
+      "sourceNumber": 2,
+      "text": "Vào dịp nào UNESCO thông qua nghị quyết về việc kỷ niệm 100 năm ngày sinh Chủ tịch Hồ Chí Minh?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Kỳ họp thứ 24 tại Paris năm 1987"
+        },
+        {
+          "id": "B",
+          "text": "Kỳ họp thứ 20 năm 1978"
+        },
+        {
+          "id": "C",
+          "text": "Kỳ họp thứ 26 năm 1991"
+        },
+        {
+          "id": "D",
+          "text": "Kỳ họp thứ 28 năm 1995"
+        }
+      ],
+      "correct": [
+        "A"
+      ]
+    },
+    {
+      "id": 103,
+      "source": "Đề 1",
+      "sourceNumber": 3,
+      "text": "Đặt một nhận định vào bối cảnh và thời điểm ra đời của nó thể hiện quan điểm nào?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Toàn diện và hệ thống"
+        },
+        {
+          "id": "B",
+          "text": "Lịch sử – cụ thể"
+        },
+        {
+          "id": "C",
+          "text": "Kế thừa và phát triển"
+        },
+        {
+          "id": "D",
+          "text": "Thống nhất tính Đảng và tính khoa học"
+        }
+      ],
+      "correct": [
+        "B"
+      ]
+    },
+    {
+      "id": 104,
+      "source": "Đề 1",
+      "sourceNumber": 4,
+      "text": "Biết vận dụng tư tưởng Hồ Chí Minh và phát triển sáng tạo trong điều kiện mới là ứng dụng quan điểm nào?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Lịch sử – cụ thể"
+        },
+        {
+          "id": "B",
+          "text": "Toàn diện và hệ thống"
+        },
+        {
+          "id": "C",
+          "text": "Thống nhất lý luận và thực tiễn"
+        },
+        {
+          "id": "D",
+          "text": "Kế thừa và phát triển"
+        }
+      ],
+      "correct": [
+        "D"
+      ]
+    },
+    {
+      "id": 105,
+      "source": "Đề 1",
+      "sourceNumber": 5,
+      "text": "Tiền đề lý luận giữ vai trò quyết định đối với sự hình thành tư tưởng Hồ Chí Minh là gì?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Tinh hoa văn hoá phương Đông"
+        },
+        {
+          "id": "B",
+          "text": "Giá trị truyền thống dân tộc"
+        },
+        {
+          "id": "C",
+          "text": "Chủ nghĩa Mác – Lênin"
+        },
+        {
+          "id": "D",
+          "text": "Các cuộc cải cách ở Nhật Bản"
+        }
+      ],
+      "correct": [
+        "C"
+      ]
+    },
+    {
+      "id": 106,
+      "source": "Đề 1",
+      "sourceNumber": 6,
+      "text": "Trong đoạn trích trên slide, Hồ Chí Minh gắn giá trị tu dưỡng đạo đức cá nhân với ai?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Khổng Tử"
+        },
+        {
+          "id": "B",
+          "text": "Giêsu"
+        },
+        {
+          "id": "C",
+          "text": "C. Mác"
+        },
+        {
+          "id": "D",
+          "text": "Tôn Trung Sơn"
+        }
+      ],
+      "correct": [
+        "A"
+      ]
+    },
+    {
+      "id": 107,
+      "source": "Đề 1",
+      "sourceNumber": 7,
+      "text": "Theo sơ đồ Hội nghị Trung ương VIII tháng 5-1941, nhiệm vụ nào được đặt ở hàng đầu?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Thống nhất các tổ chức cộng sản"
+        },
+        {
+          "id": "B",
+          "text": "Cải cách giáo dục"
+        },
+        {
+          "id": "C",
+          "text": "Xây dựng nền công nghiệp hiện đại"
+        },
+        {
+          "id": "D",
+          "text": "Giải phóng dân tộc"
+        }
+      ],
+      "correct": [
+        "D"
+      ]
+    },
+    {
+      "id": 108,
+      "source": "Đề 1",
+      "sourceNumber": 8,
+      "text": "Cuộc đời cách mạng của Hồ Chí Minh được slide chia thành các giai đoạn. Giai đoạn 1911–1920 đứng ngay trước giai đoạn nào?",
+      "options": [
+        {
+          "id": "A",
+          "text": "1930–1941"
+        },
+        {
+          "id": "B",
+          "text": "1920–1930"
+        },
+        {
+          "id": "C",
+          "text": "1941–1969"
+        },
+        {
+          "id": "D",
+          "text": "Trước năm 1911"
+        }
+      ],
+      "correct": [
+        "B"
+      ]
+    },
+    {
+      "id": 109,
+      "source": "Đề 1",
+      "sourceNumber": 9,
+      "text": "Từ hai nhiệm vụ độc lập dân tộc và chủ nghĩa xã hội, nhiệm vụ nào là điều kiện mở đường cho nhiệm vụ kia?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Độc lập dân tộc tạo cơ sở để tiến lên chủ nghĩa xã hội"
+        },
+        {
+          "id": "B",
+          "text": "Chủ nghĩa xã hội mở đường để bắt đầu giành độc lập"
+        },
+        {
+          "id": "C",
+          "text": "Cả hai chỉ là kết quả của phát triển kinh tế"
+        },
+        {
+          "id": "D",
+          "text": "Hai nhiệm vụ hoàn toàn tách rời"
+        }
+      ],
+      "correct": [
+        "A"
+      ]
+    },
+    {
+      "id": 110,
+      "source": "Đề 1",
+      "sourceNumber": 10,
+      "text": "Trong mối quan hệ ngược lại, chủ nghĩa xã hội có tác dụng gì với nền độc lập dân tộc?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Thay thế mục tiêu độc lập"
+        },
+        {
+          "id": "B",
+          "text": "Giới hạn quyền tự quyết"
+        },
+        {
+          "id": "C",
+          "text": "Tạo điều kiện bảo đảm độc lập bền vững"
+        },
+        {
+          "id": "D",
+          "text": "Chỉ làm thay đổi tên gọi của nền độc lập"
+        }
+      ],
+      "correct": [
+        "C"
+      ]
+    },
+    {
+      "id": 111,
+      "source": "Đề 1",
+      "sourceNumber": 11,
+      "text": "Phương án nào thể hiện nội dung thiết thực của độc lập dân tộc đối với người dân?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Chỉ cần được quốc tế công nhận"
+        },
+        {
+          "id": "B",
+          "text": "Gắn với tự do, đời sống ấm no và hạnh phúc"
+        },
+        {
+          "id": "C",
+          "text": "Chỉ cần có đường biên giới"
+        },
+        {
+          "id": "D",
+          "text": "Chỉ cần thành lập cơ quan hành chính"
+        }
+      ],
+      "correct": [
+        "B"
+      ]
+    },
+    {
+      "id": 112,
+      "source": "Đề 1",
+      "sourceNumber": 12,
+      "text": "Slide mô tả chủ nghĩa xã hội ở vị trí nào trong quá trình phát triển của chủ nghĩa cộng sản?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Là giai đoạn trước chủ nghĩa tư bản"
+        },
+        {
+          "id": "B",
+          "text": "Là giai đoạn sau cùng"
+        },
+        {
+          "id": "C",
+          "text": "Là một thời kỳ nằm ngoài quá trình đó"
+        },
+        {
+          "id": "D",
+          "text": "Là giai đoạn đầu"
+        }
+      ],
+      "correct": [
+        "D"
+      ]
+    },
+    {
+      "id": 113,
+      "source": "Đề 1",
+      "sourceNumber": 13,
+      "text": "Theo quan điểm Nhà nước của dân, quyền lực nhà nước thuộc về chủ thể nào?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Nhân dân"
+        },
+        {
+          "id": "B",
+          "text": "Chính phủ với tư cách chủ sở hữu quyền lực"
+        },
+        {
+          "id": "C",
+          "text": "Riêng công chức nhà nước"
+        },
+        {
+          "id": "D",
+          "text": "Chỉ các cơ quan xét xử"
+        }
+      ],
+      "correct": [
+        "A"
+      ]
+    },
+    {
+      "id": 114,
+      "source": "Đề 1",
+      "sourceNumber": 14,
+      "text": "Cụm từ “dân là chủ” nhấn mạnh điều nào sau đây?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Quy trình xử lý một vụ án"
+        },
+        {
+          "id": "B",
+          "text": "Hình thức tuyển dụng cán bộ"
+        },
+        {
+          "id": "C",
+          "text": "Địa vị, vị thế của nhân dân"
+        },
+        {
+          "id": "D",
+          "text": "Cách tổ chức một cơ quan hành chính"
+        }
+      ],
+      "correct": [
+        "C"
+      ]
+    },
+    {
+      "id": 115,
+      "source": "Đề 1",
+      "sourceNumber": 15,
+      "text": "Trong tư tưởng về Nhà nước pháp quyền, slide nhấn mạnh kết hợp hai yếu tố nào?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Tập quán và kinh tế"
+        },
+        {
+          "id": "B",
+          "text": "Pháp luật và đạo đức"
+        },
+        {
+          "id": "C",
+          "text": "Tổ chức và ngân sách"
+        },
+        {
+          "id": "D",
+          "text": "Giáo dục và ngoại giao"
+        }
+      ],
+      "correct": [
+        "B"
+      ]
+    },
+    {
+      "id": 116,
+      "source": "Đề 1",
+      "sourceNumber": 16,
+      "text": "Một cán bộ giải thích chính sách cho dân rồi báo lại tình hình thực tế cho Chính phủ đang thực hiện vai trò gì?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Chỉ làm nhiệm vụ thanh tra"
+        },
+        {
+          "id": "B",
+          "text": "Chỉ truyền đạt mệnh lệnh một chiều"
+        },
+        {
+          "id": "C",
+          "text": "Thay người dân mọi quyết định"
+        },
+        {
+          "id": "D",
+          "text": "Kết nối việc thực thi chính sách với phản ánh tình hình của nhân dân"
+        }
+      ],
+      "correct": [
+        "D"
+      ]
+    },
+    {
+      "id": 117,
+      "source": "Đề 1",
+      "sourceNumber": 17,
+      "text": "Khối đại đoàn kết dân tộc được tổ chức dưới hình thức nào theo đề cương trên slide?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Một hội nghề nghiệp riêng lẻ"
+        },
+        {
+          "id": "B",
+          "text": "Mặt trận dân tộc thống nhất"
+        },
+        {
+          "id": "C",
+          "text": "Một bộ chuyên trách duy nhất"
+        },
+        {
+          "id": "D",
+          "text": "Một tổ chức quốc tế"
+        }
+      ],
+      "correct": [
+        "B"
+      ]
+    },
+    {
+      "id": 118,
+      "source": "Đề 1",
+      "sourceNumber": 18,
+      "text": "Nền tảng cốt lõi được nêu khi xây dựng Mặt trận dân tộc thống nhất là gì?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Liên minh công nhân, nông dân và trí thức dưới sự lãnh đạo của Đảng"
+        },
+        {
+          "id": "B",
+          "text": "Chỉ tập hợp giới trí thức"
+        },
+        {
+          "id": "C",
+          "text": "Tổ chức theo từng địa phương độc lập"
+        },
+        {
+          "id": "D",
+          "text": "Tập hợp theo lợi ích của một tầng lớp"
+        }
+      ],
+      "correct": [
+        "A"
+      ]
+    },
+    {
+      "id": 119,
+      "source": "Đề 1",
+      "sourceNumber": 19,
+      "text": "Các thành viên thảo luận để đi tới thống nhất trong Mặt trận đang thực hiện nguyên tắc nào?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Cạnh tranh đa số"
+        },
+        {
+          "id": "B",
+          "text": "Tập trung quyền quyết định vào một cá nhân"
+        },
+        {
+          "id": "C",
+          "text": "Hiệp thương dân chủ"
+        },
+        {
+          "id": "D",
+          "text": "Luân phiên chỉ huy"
+        }
+      ],
+      "correct": [
+        "C"
+      ]
+    },
+    {
+      "id": 120,
+      "source": "Đề 1",
+      "sourceNumber": 20,
+      "text": "Trong lời trích về sức mạnh đoàn kết, ai là chủ thể giao nhiệm vụ được nhắc đến?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Quốc tế Cộng sản"
+        },
+        {
+          "id": "B",
+          "text": "Một tổ chức nghề nghiệp"
+        },
+        {
+          "id": "C",
+          "text": "Một cơ quan hành chính"
+        },
+        {
+          "id": "D",
+          "text": "Nhân dân"
+        }
+      ],
+      "correct": [
+        "D"
+      ]
+    },
+    {
+      "id": 121,
+      "source": "Đề 1",
+      "sourceNumber": 21,
+      "text": "Slide ghi nhận định về văn hoá và nhu cầu sinh tồn ở mốc năm nào?",
+      "options": [
+        {
+          "id": "A",
+          "text": "1943"
+        },
+        {
+          "id": "B",
+          "text": "1930"
+        },
+        {
+          "id": "C",
+          "text": "1945"
+        },
+        {
+          "id": "D",
+          "text": "1969"
+        }
+      ],
+      "correct": [
+        "A"
+      ]
+    },
+    {
+      "id": 122,
+      "source": "Đề 1",
+      "sourceNumber": 22,
+      "text": "Phẩm chất nào nói trực tiếp đến quan hệ của người cách mạng với đất nước và nhân dân?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Tinh thần quốc tế trong sáng"
+        },
+        {
+          "id": "B",
+          "text": "Cần, kiệm, liêm, chính"
+        },
+        {
+          "id": "C",
+          "text": "Trung với nước, hiếu với dân"
+        },
+        {
+          "id": "D",
+          "text": "Chí công vô tư"
+        }
+      ],
+      "correct": [
+        "C"
+      ]
+    },
+    {
+      "id": 123,
+      "source": "Đề 1",
+      "sourceNumber": 23,
+      "text": "Một người thực hiện đúng điều mình khuyên người khác và làm gương trong công việc đang vận dụng nguyên tắc nào?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Tu dưỡng đạo đức suốt đời"
+        },
+        {
+          "id": "B",
+          "text": "Nói đi đôi với làm, nêu gương về đạo đức"
+        },
+        {
+          "id": "C",
+          "text": "Chỉ xây dựng mà không chống tiêu cực"
+        },
+        {
+          "id": "D",
+          "text": "Tách lời nói khỏi hành động"
+        }
+      ],
+      "correct": [
+        "B"
+      ]
+    },
+    {
+      "id": 124,
+      "source": "Đề 1",
+      "sourceNumber": 24,
+      "text": "Vừa bồi dưỡng điều tốt, vừa ngăn ngừa thói xấu thể hiện nguyên tắc nào?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Chỉ nêu gương"
+        },
+        {
+          "id": "B",
+          "text": "Hiệp thương dân chủ"
+        },
+        {
+          "id": "C",
+          "text": "Tinh thần quốc tế trong sáng"
+        },
+        {
+          "id": "D",
+          "text": "Xây đi đôi với chống"
+        }
+      ],
+      "correct": [
+        "D"
+      ]
+    },
+    {
+      "id": 201,
+      "source": "Đề 2",
+      "sourceNumber": 1,
+      "text": "Nguyễn Ái Quốc gửi bản yêu sách của người Việt Nam đến Hội nghị Versailles vào ngày nào?",
+      "options": [
+        {
+          "id": "A",
+          "text": "18/6/1919"
+        },
+        {
+          "id": "B",
+          "text": "5/6/1911"
+        },
+        {
+          "id": "C",
+          "text": "3/2/1930"
+        },
+        {
+          "id": "D",
+          "text": "2/9/1945"
+        }
+      ],
+      "correct": [
+        "A"
+      ]
+    },
+    {
+      "id": 202,
+      "source": "Đề 2",
+      "sourceNumber": 2,
+      "text": "Nguyễn Ái Quốc tiếp cận bản luận cương của Lênin về vấn đề dân tộc và thuộc địa vào thời điểm nào?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Tháng 6 năm 1919"
+        },
+        {
+          "id": "B",
+          "text": "Tháng 12 năm 1920"
+        },
+        {
+          "id": "C",
+          "text": "Tháng 7 năm 1920"
+        },
+        {
+          "id": "D",
+          "text": "Tháng 2 năm 1930"
+        }
+      ],
+      "correct": [
+        "C"
+      ]
+    },
+    {
+      "id": 203,
+      "source": "Đề 2",
+      "sourceNumber": 3,
+      "text": "Văn kiện nào do Nguyễn Ái Quốc soạn thảo năm 1930 nêu đường lối kết hợp cách mạng dân quyền với cách mạng ruộng đất để hướng tới xã hội cộng sản?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Luận cương chính trị tháng 10-1930"
+        },
+        {
+          "id": "B",
+          "text": "Chánh cương vắn tắt của Đảng"
+        },
+        {
+          "id": "C",
+          "text": "Đường Kách mệnh"
+        },
+        {
+          "id": "D",
+          "text": "Tuyên ngôn Độc lập"
+        }
+      ],
+      "correct": [
+        "B"
+      ]
+    },
+    {
+      "id": 204,
+      "source": "Đề 2",
+      "sourceNumber": 4,
+      "text": "Ngày rời bến Nhà Rồng để đi tìm đường cứu nước của Nguyễn Tất Thành là ngày nào?",
+      "options": [
+        {
+          "id": "A",
+          "text": "2/9/1945"
+        },
+        {
+          "id": "B",
+          "text": "6/1/1930"
+        },
+        {
+          "id": "C",
+          "text": "19/5/1941"
+        },
+        {
+          "id": "D",
+          "text": "5/6/1911"
+        }
+      ],
+      "correct": [
+        "D"
+      ]
+    },
+    {
+      "id": 205,
+      "source": "Đề 2",
+      "sourceNumber": 5,
+      "text": "Hình ảnh mài ngọc và luyện vàng được Hồ Chí Minh dùng để nói về việc rèn luyện phẩm chất trong bài viết nào?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Dân vận"
+        },
+        {
+          "id": "B",
+          "text": "Đạo đức cách mạng"
+        },
+        {
+          "id": "C",
+          "text": "Đời sống mới"
+        },
+        {
+          "id": "D",
+          "text": "Di chúc"
+        }
+      ],
+      "correct": [
+        "B"
+      ]
+    },
+    {
+      "id": 206,
+      "source": "Đề 2",
+      "sourceNumber": 6,
+      "text": "Văn kiện nào của Hồ Chí Minh khẳng định trước quốc dân và thế giới rằng mọi dân tộc đều có quyền sống, tự do và mưu cầu hạnh phúc?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Tuyên ngôn Độc lập năm 1945"
+        },
+        {
+          "id": "B",
+          "text": "Di chúc"
+        },
+        {
+          "id": "C",
+          "text": "Đường Kách mệnh"
+        },
+        {
+          "id": "D",
+          "text": "Sửa đổi lối làm việc"
+        }
+      ],
+      "correct": [
+        "A"
+      ]
+    },
+    {
+      "id": 207,
+      "source": "Đề 2",
+      "sourceNumber": 7,
+      "text": "Cặp nào tạo thành nền tảng tư tưởng và định hướng hành động của Đảng Cộng sản Việt Nam?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Chủ nghĩa Tam dân và đạo đức Nho giáo"
+        },
+        {
+          "id": "B",
+          "text": "Lý luận dân quyền và chủ nghĩa yêu nước"
+        },
+        {
+          "id": "C",
+          "text": "Chỉ riêng tư tưởng Hồ Chí Minh"
+        },
+        {
+          "id": "D",
+          "text": "Chủ nghĩa Mác – Lênin và tư tưởng Hồ Chí Minh"
+        }
+      ],
+      "correct": [
+        "D"
+      ]
+    },
+    {
+      "id": 208,
+      "source": "Đề 2",
+      "sourceNumber": 8,
+      "text": "Trong cách Hồ Chí Minh nói về ý nghĩa thực hành của việc học chủ nghĩa Mác – Lênin, điều gì được nhấn mạnh?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Ghi nhớ nguyên văn nhiều sách lý luận"
+        },
+        {
+          "id": "B",
+          "text": "Dùng bằng cấp để đánh giá việc học"
+        },
+        {
+          "id": "C",
+          "text": "Cư xử có tình, có nghĩa với nhau"
+        },
+        {
+          "id": "D",
+          "text": "Tách việc học khỏi cách ứng xử"
+        }
+      ],
+      "correct": [
+        "C"
+      ]
+    },
+    {
+      "id": 209,
+      "source": "Đề 2",
+      "sourceNumber": 9,
+      "text": "Hồ Chí Minh lựa chọn con đường nào cho sự nghiệp giải phóng dân tộc Việt Nam?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Cách mạng vô sản"
+        },
+        {
+          "id": "B",
+          "text": "Cải cách quân chủ"
+        },
+        {
+          "id": "C",
+          "text": "Duy tân theo mô hình thuộc địa"
+        },
+        {
+          "id": "D",
+          "text": "Cách mạng tư sản theo mô hình cũ"
+        }
+      ],
+      "correct": [
+        "A"
+      ]
+    },
+    {
+      "id": 210,
+      "source": "Đề 2",
+      "sourceNumber": 10,
+      "text": "Theo Hồ Chí Minh, một cuộc cách mạng giải phóng ở thuộc địa có thể thắng lợi vào lúc nào so với cách mạng vô sản tại chính quốc?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Chỉ sau khi chính quốc đã thắng"
+        },
+        {
+          "id": "B",
+          "text": "Luôn đúng cùng một thời điểm"
+        },
+        {
+          "id": "C",
+          "text": "Có thể sớm hơn"
+        },
+        {
+          "id": "D",
+          "text": "Chỉ khi chính quốc đồng ý"
+        }
+      ],
+      "correct": [
+        "C"
+      ]
+    },
+    {
+      "id": 211,
+      "source": "Đề 2",
+      "sourceNumber": 11,
+      "text": "Nhóm giá trị nào phản ánh mặt tích cực của Phật giáo mà Hồ Chí Minh tiếp thu?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Tôn ti, đẳng cấp và đặc quyền"
+        },
+        {
+          "id": "B",
+          "text": "Lòng từ bi, thương người và cứu giúp người gặp nạn"
+        },
+        {
+          "id": "C",
+          "text": "Chỉ chú trọng nghi lễ và hình thức"
+        },
+        {
+          "id": "D",
+          "text": "Cạnh tranh và tích lũy tài sản"
+        }
+      ],
+      "correct": [
+        "B"
+      ]
+    },
+    {
+      "id": 212,
+      "source": "Đề 2",
+      "sourceNumber": 12,
+      "text": "Trong lời bày tỏ thiện chí đối ngoại gắn với Hồ Chí Minh, Việt Nam mong xây dựng quan hệ bạn bè với phạm vi nào?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Chỉ với các nước láng giềng"
+        },
+        {
+          "id": "B",
+          "text": "Chỉ với các nước giàu"
+        },
+        {
+          "id": "C",
+          "text": "Chỉ với một số nước có cùng chế độ"
+        },
+        {
+          "id": "D",
+          "text": "Với mọi nước dân chủ"
+        }
+      ],
+      "correct": [
+        "D"
+      ]
+    },
+    {
+      "id": 213,
+      "source": "Đề 2",
+      "sourceNumber": 13,
+      "text": "Trong câu hỏi về đặc trưng kinh tế của chủ nghĩa xã hội, yếu tố sở hữu nào được nhấn mạnh?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Sở hữu tư nhân tuyệt đối mọi tài sản công"
+        },
+        {
+          "id": "B",
+          "text": "Sở hữu xã hội đối với tư liệu sản xuất"
+        },
+        {
+          "id": "C",
+          "text": "Sở hữu cá nhân là hình thức duy nhất"
+        },
+        {
+          "id": "D",
+          "text": "Sở hữu theo đặc quyền gia tộc"
+        }
+      ],
+      "correct": [
+        "B"
+      ]
+    },
+    {
+      "id": 214,
+      "source": "Đề 2",
+      "sourceNumber": 14,
+      "text": "Giá trị truyền thống nào là động lực nổi bật trong hành trình tìm đường cứu nước của Hồ Chí Minh?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Chủ nghĩa yêu nước"
+        },
+        {
+          "id": "B",
+          "text": "Óc kinh doanh"
+        },
+        {
+          "id": "C",
+          "text": "Tinh thần biệt lập địa phương"
+        },
+        {
+          "id": "D",
+          "text": "Tập quán khoa cử"
+        }
+      ],
+      "correct": [
+        "A"
+      ]
+    },
+    {
+      "id": 215,
+      "source": "Đề 2",
+      "sourceNumber": 15,
+      "text": "Hồ Chí Minh dùng hình ảnh nào để chỉ sự bóc lột đồng thời người lao động ở chính quốc và nhân dân ở thuộc địa?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Ong có hai cánh"
+        },
+        {
+          "id": "B",
+          "text": "Chim có hai mỏ"
+        },
+        {
+          "id": "C",
+          "text": "Cây có hai nhánh"
+        },
+        {
+          "id": "D",
+          "text": "Đỉa có hai vòi"
+        }
+      ],
+      "correct": [
+        "D"
+      ]
+    },
+    {
+      "id": 216,
+      "source": "Đề 2",
+      "sourceNumber": 16,
+      "text": "Ở giai đoạn xã hội chủ nghĩa, kết quả phân phối chủ yếu căn cứ vào điều gì?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Nhu cầu của mỗi cá nhân, bất kể đóng góp"
+        },
+        {
+          "id": "B",
+          "text": "Chia đều mọi phần cho tất cả mọi người"
+        },
+        {
+          "id": "C",
+          "text": "Lao động mà mỗi người đóng góp"
+        },
+        {
+          "id": "D",
+          "text": "Tài sản do gia đình để lại"
+        }
+      ],
+      "correct": [
+        "C"
+      ]
+    },
+    {
+      "id": 217,
+      "source": "Đề 2",
+      "sourceNumber": 17,
+      "text": "Phương án nào bao quát nhất nguyện vọng của Hồ Chí Minh đối với đất nước và người dân?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Chỉ giành chủ quyền về lãnh thổ"
+        },
+        {
+          "id": "B",
+          "text": "Đất nước độc lập, nhân dân tự do, có ăn mặc và có cơ hội học hành"
+        },
+        {
+          "id": "C",
+          "text": "Chỉ mở rộng trường học"
+        },
+        {
+          "id": "D",
+          "text": "Chỉ bảo đảm đủ lương thực"
+        }
+      ],
+      "correct": [
+        "B"
+      ]
+    },
+    {
+      "id": 218,
+      "source": "Đề 2",
+      "sourceNumber": 18,
+      "text": "Hồ Chí Minh đặt yếu tố nào lên trước khi bàn về việc xây dựng chủ nghĩa xã hội?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Phát triển công nghiệp nặng"
+        },
+        {
+          "id": "B",
+          "text": "Tranh thủ viện trợ"
+        },
+        {
+          "id": "C",
+          "text": "Mở rộng thị trường"
+        },
+        {
+          "id": "D",
+          "text": "Xây dựng con người xã hội chủ nghĩa"
+        }
+      ],
+      "correct": [
+        "D"
       ]
     }
   ]

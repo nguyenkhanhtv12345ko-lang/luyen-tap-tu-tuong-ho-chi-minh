@@ -51,7 +51,7 @@ def paragraph_text(node):
 def highlights(node):
     return any(x.get(W + "val") == "yellow" for x in node.findall(".//w:rPr/w:highlight", NS))
 
-def read_source(path):
+def read_source(path, stop_at=None):
     with ZipFile(path) as docx:
         root = ET.fromstring(docx.read("word/document.xml"))
 
@@ -59,6 +59,8 @@ def read_source(path):
     chapter, part, current = None, None, None
     for paragraph in root.findall("w:body/w:p", NS):
         text = paragraph_text(paragraph)
+        if stop_at and text.startswith(stop_at):
+            break
         if re.match(r"^Phần [123]\s+", text):
             part, chapter = int(text[5]), None
             continue
@@ -190,9 +192,33 @@ def audit(raw, bank, groups, output):
     lines += [f"- {group['label']}: {len(group['ids'])} câu" for group in groups]
     output.write_text("\n".join(lines) + "\n", encoding="utf-8")
 
+def import_exam(path, label, first_id, expected_count, stop_at=None):
+    rows = read_source(path, stop_at)
+    if [row["sourceNumber"] for row in rows] != list(range(1, expected_count + 1)):
+        raise ValueError(f"Unexpected question numbering in {path.name}")
+    questions = []
+    for index, row in enumerate(rows, 1):
+        options = row["options"]
+        ids = [option["id"] for option in options]
+        if (not row["text"] or ids != list(LETTERS) or not all(option["text"] for option in options)
+                or len(row["highlighted"]) != 1 or row["highlighted"][0] not in ids):
+            raise ValueError(f"Invalid question {index} in {path.name}")
+        question = {
+            "id": first_id + index - 1, "source": label, "sourceNumber": index,
+            "text": row["text"], "options": options, "correct": row["highlighted"],
+        }
+        if needs_fixed_options(row):
+            question["fixedOrder"] = True
+        if row.get("explanation"):
+            question["explanation"] = row["explanation"]
+        questions.append(question)
+    return questions
+
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("word_file", type=Path)
+    parser.add_argument("--exam-1", type=Path, required=True, help="Word document with the 24-question exam")
+    parser.add_argument("--exam-2", type=Path, required=True, help="Word document with the 18-question exam")
     parser.add_argument("--output", type=Path, default=Path(__file__).resolve().parents[1])
     args = parser.parse_args()
     raw = read_source(args.word_file)
@@ -209,7 +235,15 @@ def main():
     for chapter in range(1, 7):
         groups.append({"id": f"chapter-{chapter}", "label": f"Chương {chapter}", "ids": group_ids([q for q in raw if q["chapter"] == chapter])})
     assert all(len(group["ids"]) == len(set(group["ids"])) and set(group["ids"]) <= set(groups[0]["ids"]) for group in groups)
-    data = {"sourceCount": len(raw), "groups": groups, "questions": bank}
+    exam_groups = [
+        ("exam-1", "Đề 1 · Ôn tập theo ảnh bài giảng", import_exam(args.exam_1, "Đề 1", 101, 24, "Phần 2")),
+        ("exam-2", "Đề 2 · Tham khảo VietJack", import_exam(args.exam_2, "Đề 2", 201, 18)),
+    ]
+    exam_questions = []
+    for group_id, label, questions in exam_groups:
+        groups.append({"id": group_id, "label": label, "ids": [question["id"] for question in questions]})
+        exam_questions.extend(questions)
+    data = {"sourceCount": len(raw), "groups": groups, "questions": bank + exam_questions}
     (args.output / "questions.json").write_text(json.dumps(data, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     audit(raw, bank, groups, args.output / "DOI-CHIEU.md")
     print(json.dumps({"source_count": len(raw), "unique_count": len(bank),

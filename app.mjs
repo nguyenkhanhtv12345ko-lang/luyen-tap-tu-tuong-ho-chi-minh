@@ -4,6 +4,7 @@ const byId = id => document.getElementById(id);
 const storageKey = "tu-tuong-ho-chi-minh/v1";
 const sourceName = run => `${groupMap.get(run.set).label} · ${run.ids.length} câu`;
 const modeNames = { original: "Nguyên bản", questions: "Đảo câu hỏi", options: "Đảo phương án", both: "Đảo cả hai" };
+const sourceQuestionLabel = question => "Câu gốc " + (question.sourceNumber ?? question.id);
 const stateLabels = { right: "đúng", wrong: "sai", pending: "chưa làm", ungraded: "chưa có đáp án xác nhận" };
 let catalog, groupMap, map, saved, pendingAction;
 let selection = null;
@@ -51,7 +52,7 @@ function renderQuestion() {
     ? "Làm lại câu sai · " + sourceName(run)
     : sourceName(saved.main) + " · " + modeNames[run.mode];
   byId("question-count").textContent = "Câu " + (run.index + 1) + " / " + run.ids.length;
-  byId("original-number").textContent = `Câu gốc ${question.id} · ${question.source}`;
+  byId("original-number").textContent = sourceQuestionLabel(question) + " · " + question.source;
   byId("question-text").textContent = question.text || "Tài liệu chưa có nội dung câu hỏi này.";
 
   const note = byId("source-note");
@@ -158,7 +159,7 @@ function renderProgress() {
       icon.setAttribute("aria-hidden", "true");
       button.append(icon);
     }
-    button.setAttribute("aria-label", "Câu " + (index + 1) + ", câu gốc " + id + ", " + stateLabels[result]
+    button.setAttribute("aria-label", "Câu " + (index + 1) + ", " + sourceQuestionLabel(map.get(id)) + ", " + stateLabels[result]
       + (isMarked ? ", đã đánh dấu" : "") + (needsReview ? ", cần đối chiếu" : ""));
     button.addEventListener("click", () => goTo(index));
     frag.append(button);
@@ -352,23 +353,26 @@ function renderGroups() {
   parts.label = "Theo phần";
   const chapters = document.createElement("optgroup");
   chapters.label = "Theo chương";
+  const exams = document.createElement("optgroup");
+  exams.label = "Đề ôn tập riêng";
+  const sections = { part: parts, chapter: chapters, exam: exams };
   for (const group of catalog.groups) {
     const option = textNode("option", group.label + " (" + group.ids.length + " câu)");
     option.value = group.id;
-    const parent = group.id === "all" ? select : group.id.startsWith("part-") ? parts : chapters;
+    const parent = sections[group.id.split("-")[0]] ?? select;
     parent.append(option);
   }
-  select.append(parts, chapters);
+  select.append(parts, chapters, exams);
 }
 
 async function boot() {
   try {
-    const response = await fetch(new URL("./questions.json", import.meta.url));
+    const response = await fetch(new URL("./questions.json?v=2", import.meta.url));
     if (!response.ok) throw new Error("Không tải được dữ liệu câu hỏi.");
     catalog = await response.json();
     map = new Map(catalog.questions.map(question => [question.id, question]));
     groupMap = new Map(catalog.groups.map(group => [group.id, group]));
-    if (!map.size || groupMap.get("all")?.ids.length !== map.size) {
+    if (!groupMap.get("all")?.ids.length || catalog.groups.some(group => group.ids.some(id => !map.has(id)))) {
       throw new Error("Thiếu dữ liệu câu hỏi.");
     }
     renderGroups();
