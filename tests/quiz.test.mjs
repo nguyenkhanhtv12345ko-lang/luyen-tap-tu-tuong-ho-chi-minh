@@ -31,8 +31,11 @@ test("76 original questions and two additional exams remain in separate groups",
     assert.equal(new Set(group.ids).size, group.ids.length);
     assert.ok(group.ids.every(id => map.has(id)));
   }
-  assert.deepEqual(catalog.questions.filter(q => !q.correct.length).map(q => q.id), [33, 34, 45, 58, 63, 80, 87, 90]);
-  assert.deepEqual(map.get(71).correct, ["C"]);
+  assert.deepEqual(catalog.questions.filter(q => !q.correct.length).map(q => q.id), [87]);
+  const waygroundKeys = { 33: "B", 34: "C", 45: "C", 58: "A", 63: "A", 71: "C", 80: "D", 90: "B" };
+  for (const [id, key] of Object.entries(waygroundKeys)) {
+    assert.deepEqual(map.get(Number(id)).correct, [key]);
+  }
 });
 
 for (const mode of modes) {
@@ -55,7 +58,7 @@ for (const mode of modes) {
       assert.equal(outcome(question, run.answers[id]), question.correct.length ? "right" : "ungraded");
       assert.ok(!submit(run, question, choice.id));
     }
-    assert.deepEqual(stats(run, map), { right: 68, wrong: 0, pending: 0, ungraded: 8, answered: 76 });
+    assert.deepEqual(stats(run, map), { right: 75, wrong: 0, pending: 0, ungraded: 1, answered: 76 });
   });
 }
 

@@ -731,11 +731,7 @@
           "text": "Tuân thủ quy định của pháp luật"
         }
       ],
-      "correct": [],
-      "review": [
-        "Phạm vi câu hỏi rộng. C, D cũng mô tả việc có thể góp phần xây dựng Đảng trong sạch, vững mạnh."
-      ],
-      "sourceKey": [
+      "correct": [
         "B"
       ]
     },
@@ -761,11 +757,7 @@
           "text": "Tận tụy phục vụ quần chúng nhân dân"
         }
       ],
-      "correct": [],
-      "review": [
-        "B, C và D đều có thể phù hợp với cách hỏi “một trong những quan điểm”."
-      ],
-      "sourceKey": [
+      "correct": [
         "C"
       ]
     },
@@ -993,11 +985,7 @@
           "text": "Lòng yêu nước và lợi ích dân tộc"
         }
       ],
-      "correct": [],
-      "review": [
-        "Câu về nền tảng của khối đại đoàn kết ở cùng chương nêu liên minh công, nông, trí thức. Cần kiểm tra cách dùng “nền tảng vững chắc nhất” ở câu này."
-      ],
-      "sourceKey": [
+      "correct": [
         "C"
       ]
     },
@@ -1299,11 +1287,7 @@
           "text": "Chiến tranh thế giới thứ nhất kết thúc."
         }
       ],
-      "correct": [],
-      "review": [
-        "Đáp án gốc tô A. Câu hỏi hỏi một ảnh hưởng tích cực nói chung nên các phương án khác cũng cần được đối chiếu với giáo trình."
-      ],
-      "sourceKey": [
+      "correct": [
         "A"
       ]
     },
@@ -1413,11 +1397,7 @@
           "text": "Dân chủ"
         }
       ],
-      "correct": [],
-      "review": [
-        "Bản yêu sách nêu các quyền tự do và các yêu sách dân chủ. Câu hỏi chưa giới hạn quyền cụ thể."
-      ],
-      "sourceKey": [
+      "correct": [
         "A"
       ]
     },
@@ -1597,7 +1577,7 @@
         "C"
       ],
       "review": [
-        "Hai phương án A và B cùng ghi “Chủ nghĩa tư bản”. Đáp án tô vàng C vẫn phân biệt được."
+        "Hai phương án A và B cùng ghi “Chủ nghĩa tư bản”. Wayground chấm phương án C."
       ]
     },
     {
@@ -1762,11 +1742,7 @@
           "text": "Là điều kiện, tiền đề để đi lên chủ nghĩa xã hội."
         }
       ],
-      "correct": [],
-      "review": [
-        "Các bản trùng trong Chương 3 tô hai cách diễn đạt khác nhau. Phương án A và D ở bản này gần nghĩa."
-      ],
-      "sourceKey": [
+      "correct": [
         "D"
       ]
     },
@@ -1950,7 +1926,7 @@
       ],
       "correct": [],
       "review": [
-        "B và C là các hoạt động cụ thể trong giai đoạn được hỏi. Câu hỏi chưa yêu cầu chọn phương án đầy đủ nhất."
+        "Chưa tìm được câu và đáp án tương ứng trên Wayground. Bản lưu MHT ghi lựa chọn A."
       ],
       "sourceKey": [
         "A"
@@ -2030,11 +2006,7 @@
           "text": "Cán bộ là lực lượng đấu tranh chủ yếu của cách mạng."
         }
       ],
-      "correct": [],
-      "review": [
-        "B và C đều diễn đạt nhận định rằng kết quả công việc phụ thuộc vào chất lượng cán bộ."
-      ],
-      "sourceKey": [
+      "correct": [
         "B"
       ]
     },

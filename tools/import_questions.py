@@ -21,20 +21,15 @@ DUPLICATES = {
     30: 89, 31: 90, 32: 91, 40: 49, 77: 1, 79: 21,
 }
 REVIEW = {
-    33: "Phạm vi câu hỏi rộng. C, D cũng mô tả việc có thể góp phần xây dựng Đảng trong sạch, vững mạnh.",
-    34: "B, C và D đều có thể phù hợp với cách hỏi “một trong những quan điểm”.",
-    45: "Câu về nền tảng của khối đại đoàn kết ở cùng chương nêu liên minh công, nông, trí thức. Cần kiểm tra cách dùng “nền tảng vững chắc nhất” ở câu này.",
-    58: "Đáp án gốc tô A. Câu hỏi hỏi một ảnh hưởng tích cực nói chung nên các phương án khác cũng cần được đối chiếu với giáo trình.",
-    63: "Bản yêu sách nêu các quyền tự do và các yêu sách dân chủ. Câu hỏi chưa giới hạn quyền cụ thể.",
-    71: "Hai phương án A và B cùng ghi “Chủ nghĩa tư bản”. Đáp án tô vàng C vẫn phân biệt được.",
-    80: "Các bản trùng trong Chương 3 tô hai cách diễn đạt khác nhau. Phương án A và D ở bản này gần nghĩa.",
-    87: "B và C là các hoạt động cụ thể trong giai đoạn được hỏi. Câu hỏi chưa yêu cầu chọn phương án đầy đủ nhất.",
-    90: "B và C đều diễn đạt nhận định rằng kết quả công việc phụ thuộc vào chất lượng cán bộ.",
+    71: "Hai phương án A và B cùng ghi “Chủ nghĩa tư bản”. Wayground chấm phương án C.",
+    87: "Chưa tìm được câu và đáp án tương ứng trên Wayground. Bản lưu MHT ghi lựa chọn A.",
 }
-# A repeated distractor does not invalidate an unambiguous marked answer.
-SKIP_GRADING = set(REVIEW) - {71}
-# The request supplies examples of corrections but no actual overrides.
-OVERRIDES = {}
+SKIP_GRADING = {87}
+# Letter IDs belong to the Word options, matched by content to the Wayground key.
+OVERRIDES = {
+    33: ["B"], 34: ["C"], 45: ["C"], 58: ["A"],
+    63: ["A"], 71: ["C"], 80: ["D"], 90: ["B"],
+}
 
 def normalized(text):
     return "".join(c for c in unicodedata.normalize("NFC", text).casefold() if c.isalnum())
@@ -183,9 +178,20 @@ def audit(raw, bank, groups, output):
         if q.get("review"):
             grade = "Có" if q["correct"] else "Bỏ qua"
             lines.append(f"| {q['id']} | {q['source']} | {' '.join(q['review'])} | {grade} |")
-    lines += ["", "Ở Phần 3, màu vàng trong Word thể hiện lựa chọn đã lưu từ MHT. "
-              "Web dùng lựa chọn này theo chỉ định nhập đáp án, đồng thời bỏ qua việc tính điểm ở các câu chưa xác định trong bảng.",
-              "", "## Câu đã gộp", "", "| Bản lặp | Bản giữ |", "| --- | --- |"]
+    lines += [
+        "", "## Đáp án đối chiếu Wayground", "",
+        "| Câu gốc | Đáp án trên trang luyện | Đề Wayground |",
+        "| --- | --- | --- |",
+        "| 33, 34 | B, C | [Chương 4, câu 4 và 5](https://wayground.com/print/quiz/660b6bca455cc1746bdb9feb) |",
+        "| 45 | C | [Chương 5, câu 6](https://wayground.com/print/quiz/6641c59074c28f267309c838) |",
+        "| 58, 63, 71 | A, A, C | [Nguyễn Ái Quốc, câu 1, 6 và 14](https://wayground.com/print/quiz/652ffd223c7f9b188518b201) |",
+        "| 80 | D | [Chương 3, câu 3 và 7](https://wayground.com/print/quiz/65f8f1efe38a0b4907d1d1a8). Wayground chọn C và A ở hai bản tương ứng về điều kiện, tiền đề tiến lên chủ nghĩa xã hội. |",
+        "| 90 | B | [Chương 4, câu 2](https://wayground.com/print/quiz/660b6bca455cc1746bdb9feb). Wayground chọn A, tương ứng phương án B trong bản MHT. |",
+        "", "Ở Đề Giữa kỳ, phần tô vàng trong Word ghi lựa chọn đã lưu từ MHT. "
+        "Các câu 80 và 90 đã được đối chiếu qua nội dung đáp án của đề Wayground. "
+        "Câu 87 vẫn bỏ qua khi tính điểm.",
+        "", "## Câu đã gộp", "", "| Bản lặp | Bản giữ |", "| --- | --- |",
+    ]
     for duplicate, retained in sorted(DUPLICATES.items()):
         lines.append(f"| {duplicate} · {source_label(originals[duplicate])} | {retained} · {source_label(originals[retained])} |")
     lines += ["", "## Số câu theo bộ luyện", ""]

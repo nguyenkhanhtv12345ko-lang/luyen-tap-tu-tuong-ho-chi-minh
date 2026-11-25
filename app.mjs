@@ -367,7 +367,7 @@ function renderGroups() {
 
 async function boot() {
   try {
-    const response = await fetch(new URL("./questions.json?v=3", import.meta.url));
+    const response = await fetch(new URL("./questions.json?v=4", import.meta.url));
     if (!response.ok) throw new Error("Không tải được dữ liệu câu hỏi.");
     catalog = await response.json();
     map = new Map(catalog.questions.map(question => [question.id, question]));
