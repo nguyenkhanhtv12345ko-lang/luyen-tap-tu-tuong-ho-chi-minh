@@ -32,6 +32,7 @@ test("76 original questions and two additional exams remain in separate groups",
     assert.ok(group.ids.every(id => map.has(id)));
   }
   assert.deepEqual(catalog.questions.filter(q => !q.correct.length).map(q => q.id), []);
+  assert.ok(catalog.questions.every(q => !q.review?.length));
   const waygroundKeys = { 33: "B", 34: "C", 45: "C", 58: "A", 63: "A", 71: "C", 80: "D", 90: "B" };
   for (const [id, key] of Object.entries(waygroundKeys)) {
     assert.deepEqual(map.get(Number(id)).correct, [key]);

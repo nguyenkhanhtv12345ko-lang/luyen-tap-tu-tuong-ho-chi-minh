@@ -20,9 +20,6 @@ DUPLICATES = {
     22: 80, 23: 81, 24: 82, 25: 83, 26: 80, 28: 85, 29: 84,
     30: 89, 31: 90, 32: 91, 40: 49, 77: 1, 79: 21,
 }
-REVIEW = {
-    71: "Hai phương án A và B cùng ghi “Chủ nghĩa tư bản”. Wayground chấm phương án C.",
-}
 # Letter IDs belong to the Word options, matched by content to the Wayground key.
 OVERRIDES = {
     33: ["B"], 34: ["C"], 45: ["C"], 58: ["A"],
@@ -109,7 +106,7 @@ def transform(raw):
             assert len(retained["options"]) >= len(row["options"]), (qid, retained["id"])
             continue
 
-        notes = [REVIEW[qid]] if qid in REVIEW else []
+        notes = []
         kept = row["options"]
         valid = [option["id"] for option in kept if option["text"]]
         key = OVERRIDES.get(qid, row["highlighted"])
@@ -117,7 +114,7 @@ def transform(raw):
         if len(kept) < 3 or len(valid) != len(kept) or valid != list(LETTERS[:len(valid)]):
             notes.append("Thiếu nội dung hoặc thiếu phương án trong tài liệu.")
             correct = []
-        if len({normalized(option["text"]) for option in kept}) < len(kept) and qid not in REVIEW:
+        if len({normalized(option["text"]) for option in kept}) < len(kept) and qid not in OVERRIDES:
             notes.append("Có phương án trùng nội dung.")
             correct = []
         if len(key) != 1 or any(option not in valid for option in key):
@@ -165,13 +162,15 @@ def audit(raw, bank, groups, output):
         "Số câu gốc trên web là vị trí của câu trong toàn bộ tài liệu Word. "
         "Trong từng phần hoặc chương, bản đầy đủ của một câu có thể được dùng chung với nhóm khác.",
         "",
-        "## Câu cần đối chiếu",
-        "",
-        "| Câu gốc | Vị trí trong Word | Nội dung cần kiểm tra | Tính điểm |",
-        "| --- | --- | --- | --- |",
     ]
-    for q in bank:
-        if q.get("review"):
+    review_questions = [q for q in bank if q.get("review")]
+    if review_questions:
+        lines += [
+            "## Câu cần đối chiếu", "",
+            "| Câu gốc | Vị trí trong Word | Nội dung cần kiểm tra | Tính điểm |",
+            "| --- | --- | --- | --- |",
+        ]
+        for q in review_questions:
             grade = "Có" if q["correct"] else "Bỏ qua"
             lines.append(f"| {q['id']} | {q['source']} | {' '.join(q['review'])} | {grade} |")
     lines += [
@@ -180,7 +179,7 @@ def audit(raw, bank, groups, output):
         "| --- | --- | --- |",
         "| 33, 34 | B, C | [Chương 4, câu 4 và 5](https://wayground.com/print/quiz/660b6bca455cc1746bdb9feb) |",
         "| 45 | C | [Chương 5, câu 6](https://wayground.com/print/quiz/6641c59074c28f267309c838) |",
-        "| 58, 63, 71 | A, A, C | [Nguyễn Ái Quốc, câu 1, 6 và 14](https://wayground.com/print/quiz/652ffd223c7f9b188518b201) |",
+        "| 58, 63, 71 | A, A, C | [Nguyễn Ái Quốc, câu 1, 6 và 14](https://wayground.com/print/quiz/652ffd223c7f9b188518b201). Câu 71 có hai phương án nhiễu trùng chữ. |",
         "| 80 | D | [Chương 3, câu 3 và 7](https://wayground.com/print/quiz/65f8f1efe38a0b4907d1d1a8). Wayground chọn C và A ở hai bản tương ứng về điều kiện, tiền đề tiến lên chủ nghĩa xã hội. |",
         "| 90 | B | [Chương 4, câu 2](https://wayground.com/print/quiz/660b6bca455cc1746bdb9feb). Wayground chọn A, tương ứng phương án B trong bản MHT. |",
         "", "## Đề Giữa kỳ", "",

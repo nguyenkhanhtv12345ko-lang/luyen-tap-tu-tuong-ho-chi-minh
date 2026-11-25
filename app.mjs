@@ -367,7 +367,7 @@ function renderGroups() {
 
 async function boot() {
   try {
-    const response = await fetch(new URL("./questions.json?v=5", import.meta.url));
+    const response = await fetch(new URL("./questions.json?v=6", import.meta.url));
     if (!response.ok) throw new Error("Không tải được dữ liệu câu hỏi.");
     catalog = await response.json();
     map = new Map(catalog.questions.map(question => [question.id, question]));
@@ -377,6 +377,10 @@ async function boot() {
     }
     renderGroups();
     saved = restoreOrStart();
+    if (!catalog.questions.some(question => question.review?.length)) {
+      byId("filter").querySelector('option[value="review"]').remove();
+      if (saved.filter === "review") saved.filter = "all";
+    }
     setupControls();
     present();
     for (const id of ["open-menu", "new-run", "mark"]) byId(id).disabled = false;

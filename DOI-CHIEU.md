@@ -4,11 +4,6 @@ Tài liệu Word có 95 câu, 325 phương án. Đề tổng có 76 câu sau khi
 
 Số câu gốc trên web là vị trí của câu trong toàn bộ tài liệu Word. Trong từng phần hoặc chương, bản đầy đủ của một câu có thể được dùng chung với nhóm khác.
 
-## Câu cần đối chiếu
-
-| Câu gốc | Vị trí trong Word | Nội dung cần kiểm tra | Tính điểm |
-| --- | --- | --- | --- |
-| 71 | Phần 2 · Câu 14 | Hai phương án A và B cùng ghi “Chủ nghĩa tư bản”. Wayground chấm phương án C. | Có |
 
 ## Đáp án đối chiếu Wayground
 
@@ -16,7 +11,7 @@ Số câu gốc trên web là vị trí của câu trong toàn bộ tài liệu 
 | --- | --- | --- |
 | 33, 34 | B, C | [Chương 4, câu 4 và 5](https://wayground.com/print/quiz/660b6bca455cc1746bdb9feb) |
 | 45 | C | [Chương 5, câu 6](https://wayground.com/print/quiz/6641c59074c28f267309c838) |
-| 58, 63, 71 | A, A, C | [Nguyễn Ái Quốc, câu 1, 6 và 14](https://wayground.com/print/quiz/652ffd223c7f9b188518b201) |
+| 58, 63, 71 | A, A, C | [Nguyễn Ái Quốc, câu 1, 6 và 14](https://wayground.com/print/quiz/652ffd223c7f9b188518b201). Câu 71 có hai phương án nhiễu trùng chữ. |
 | 80 | D | [Chương 3, câu 3 và 7](https://wayground.com/print/quiz/65f8f1efe38a0b4907d1d1a8). Wayground chọn C và A ở hai bản tương ứng về điều kiện, tiền đề tiến lên chủ nghĩa xã hội. |
 | 90 | B | [Chương 4, câu 2](https://wayground.com/print/quiz/660b6bca455cc1746bdb9feb). Wayground chọn A, tương ứng phương án B trong bản MHT. |
 
