@@ -9,7 +9,6 @@ Số câu gốc trên web là vị trí của câu trong toàn bộ tài liệu 
 | Câu gốc | Vị trí trong Word | Nội dung cần kiểm tra | Tính điểm |
 | --- | --- | --- | --- |
 | 71 | Phần 2 · Câu 14 | Hai phương án A và B cùng ghi “Chủ nghĩa tư bản”. Wayground chấm phương án C. | Có |
-| 87 | Phần 3 · Câu 12 | Chưa tìm được câu và đáp án tương ứng trên Wayground. Bản lưu MHT ghi lựa chọn A. | Bỏ qua |
 
 ## Đáp án đối chiếu Wayground
 
@@ -21,7 +20,9 @@ Số câu gốc trên web là vị trí của câu trong toàn bộ tài liệu 
 | 80 | D | [Chương 3, câu 3 và 7](https://wayground.com/print/quiz/65f8f1efe38a0b4907d1d1a8). Wayground chọn C và A ở hai bản tương ứng về điều kiện, tiền đề tiến lên chủ nghĩa xã hội. |
 | 90 | B | [Chương 4, câu 2](https://wayground.com/print/quiz/660b6bca455cc1746bdb9feb). Wayground chọn A, tương ứng phương án B trong bản MHT. |
 
-Ở Đề Giữa kỳ, phần tô vàng trong Word ghi lựa chọn đã lưu từ MHT. Các câu 80 và 90 đã được đối chiếu qua nội dung đáp án của đề Wayground. Câu 87 vẫn bỏ qua khi tính điểm.
+## Đề Giữa kỳ
+
+Cả 20 đáp án được chấm theo phương án đã chọn trong bản lưu MHT, theo xác nhận của người học. Các câu dùng chung với nhóm khác được đối chiếu theo nội dung phương án. Câu gốc 87 (câu 12 của Đề Giữa kỳ) chấm phương án A.
 
 ## Câu đã gộp
 

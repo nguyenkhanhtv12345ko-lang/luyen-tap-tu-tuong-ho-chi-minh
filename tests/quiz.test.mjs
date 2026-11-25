@@ -31,11 +31,24 @@ test("76 original questions and two additional exams remain in separate groups",
     assert.equal(new Set(group.ids).size, group.ids.length);
     assert.ok(group.ids.every(id => map.has(id)));
   }
-  assert.deepEqual(catalog.questions.filter(q => !q.correct.length).map(q => q.id), [87]);
+  assert.deepEqual(catalog.questions.filter(q => !q.correct.length).map(q => q.id), []);
   const waygroundKeys = { 33: "B", 34: "C", 45: "C", 58: "A", 63: "A", 71: "C", 80: "D", 90: "B" };
   for (const [id, key] of Object.entries(waygroundKeys)) {
     assert.deepEqual(map.get(Number(id)).correct, [key]);
   }
+});
+
+test("all 20 midterm choices are graded as confirmed from MHT", () => {
+  const run = createRun(catalog, "part-3", "original");
+  assert.equal(run.ids.length, 20);
+  assert.deepEqual(map.get(87).correct, ["A"]);
+  assert.equal(map.get(87).review, undefined);
+  for (const id of run.ids) {
+    const question = map.get(id);
+    assert.equal(question.correct.length, 1);
+    assert.ok(submit(run, question, question.correct[0]));
+  }
+  assert.equal(stats(run, map).right, 20);
 });
 
 for (const mode of modes) {
@@ -58,7 +71,7 @@ for (const mode of modes) {
       assert.equal(outcome(question, run.answers[id]), question.correct.length ? "right" : "ungraded");
       assert.ok(!submit(run, question, choice.id));
     }
-    assert.deepEqual(stats(run, map), { right: 75, wrong: 0, pending: 0, ungraded: 1, answered: 76 });
+    assert.deepEqual(stats(run, map), { right: 76, wrong: 0, pending: 0, ungraded: 0, answered: 76 });
   });
 }
 

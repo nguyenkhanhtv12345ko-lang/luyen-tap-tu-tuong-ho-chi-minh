@@ -22,9 +22,7 @@ DUPLICATES = {
 }
 REVIEW = {
     71: "Hai phương án A và B cùng ghi “Chủ nghĩa tư bản”. Wayground chấm phương án C.",
-    87: "Chưa tìm được câu và đáp án tương ứng trên Wayground. Bản lưu MHT ghi lựa chọn A.",
 }
-SKIP_GRADING = {87}
 # Letter IDs belong to the Word options, matched by content to the Wayground key.
 OVERRIDES = {
     33: ["B"], 34: ["C"], 45: ["C"], 58: ["A"],
@@ -128,8 +126,6 @@ def transform(raw):
         if not row["text"]:
             notes.append("Thiếu nội dung câu hỏi.")
             correct = []
-        if qid in SKIP_GRADING and qid not in OVERRIDES:
-            correct = []
 
         q = {
             "id": qid, "source": source_label(row), "text": row["text"],
@@ -187,9 +183,10 @@ def audit(raw, bank, groups, output):
         "| 58, 63, 71 | A, A, C | [Nguyễn Ái Quốc, câu 1, 6 và 14](https://wayground.com/print/quiz/652ffd223c7f9b188518b201) |",
         "| 80 | D | [Chương 3, câu 3 và 7](https://wayground.com/print/quiz/65f8f1efe38a0b4907d1d1a8). Wayground chọn C và A ở hai bản tương ứng về điều kiện, tiền đề tiến lên chủ nghĩa xã hội. |",
         "| 90 | B | [Chương 4, câu 2](https://wayground.com/print/quiz/660b6bca455cc1746bdb9feb). Wayground chọn A, tương ứng phương án B trong bản MHT. |",
-        "", "Ở Đề Giữa kỳ, phần tô vàng trong Word ghi lựa chọn đã lưu từ MHT. "
-        "Các câu 80 và 90 đã được đối chiếu qua nội dung đáp án của đề Wayground. "
-        "Câu 87 vẫn bỏ qua khi tính điểm.",
+        "", "## Đề Giữa kỳ", "",
+        "Cả 20 đáp án được chấm theo phương án đã chọn trong bản lưu MHT, theo xác nhận của người học. "
+        "Các câu dùng chung với nhóm khác được đối chiếu theo nội dung phương án. "
+        "Câu gốc 87 (câu 12 của Đề Giữa kỳ) chấm phương án A.",
         "", "## Câu đã gộp", "", "| Bản lặp | Bản giữ |", "| --- | --- |",
     ]
     for duplicate, retained in sorted(DUPLICATES.items()):
